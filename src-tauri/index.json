@@ -1,0 +1,1096 @@
+{"projects":{"/Users/s_mash/Documents/ratchet/ECOPARTS/dbpatch":{"name":"\"dbpatch\"","path":"/Users/s_mash/Documents/ratchet/ECOPARTS/dbpatch","git":[],"description":null,"language_map":{"Markdown":0.0,"JSON":56.13663,"TOML":0.3839534,"Rust":43.479412},"project_type":"Rust","last_modified":{"secs_since_epoch":1672833642,"nanos_since_epoch":923815754},"documentation_file":null},"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-admin":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-admin","git":["git@github.com:manishsingh10895/eco-admin.git"],"description":null,"language_map":{"Plain Text":0.0,"JSON":1.9629273,"Markdown":0.0,"PowerShell":0.004385299,"Pug":0.007083945,"YAML":1.5682504,"TypeScript":96.45735},"project_type":"Node","last_modified":{"secs_since_epoch":1661420275,"nanos_since_epoch":4594802},"documentation_file":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-admin/README.md"},"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-backend":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-backend","git":["git@github.com:manishsingh10895/eco-backend.git"],"description":null,"language_map":{"YAML":0.0049022185,"Markdown":0.0,"JSON":0.07808533,"PowerShell":0.008053644,"Pug":0.0073533272,"TypeScript":99.899155,"Shell":0.0024511092},"project_type":"Node","last_modified":{"secs_since_epoch":1672784128,"nanos_since_epoch":380959614},"documentation_file":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-backend/README.md"},"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-crm":{"name":"\"eco-crm\"","path":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-crm","git":["git@github.com:manishsingh10895/eco-crm.git"],"description":null,"language_map":{"JavaScript":0.21513985,"Markdown":0.0,"LESS":0.25516585,"Plain Text":0.0,"SVG":0.035022765,"HTML":0.105068296,"Sass":5.3184566,"TSX":72.83735,"TypeScript":19.542704,"CSS":0.5503577,"JSON":1.1407415},"project_type":"React","last_modified":{"secs_since_epoch":1661420277,"nanos_since_epoch":797704696},"documentation_file":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-crm/README.md"},"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-lib":{"name":"\"eco-lib\"","path":"/Users/s_mash/Documents/ratchet/ECOPARTS/eco-lib","git":[],"description":"\"\"","language_map":{"TypeScript":98.969955,"JSON":1.030043},"project_type":"Node","last_modified":{"secs_since_epoch":1671791182,"nanos_since_epoch":53301137},"documentation_file":null},"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-admin":{"name":"\"material-dashboard-react\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-admin","git":["gnoften:noften/noften-marketplace-admin.git"],"description":"\"Material Dashboard React. Coded by Creative Tim\"","language_map":{"JSON":0.8260106,"HTML":0.19771528,"Markdown":0.0,"Plain Text":0.0,"SVG":0.07029877,"JavaScript":96.70914,"CSS":2.1968365},"project_type":"React","last_modified":{"secs_since_epoch":1645515988,"nanos_since_epoch":827550888},"documentation_file":null},"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-backend":{"name":"\"api\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-backend","git":["gnoften:noften/noften-marketplace-backend.git"],"description":"\"\"","language_map":{"JavaScript":99.13307,"PowerShell":0.053624094,"JSON":0.81329876},"project_type":"Node","last_modified":{"secs_since_epoch":1661420231,"nanos_since_epoch":419431686},"documentation_file":null},"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-contracts":{"name":"\"noften-marketplace-contracts\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-contracts","git":["gnoften:noften/noften-marketplace-contracts.git"],"description":"\"\"","language_map":{"Solidity":6.7811565,"TypeScript":1.1409751,"Markdown":0.0,"JSON":92.077866},"project_type":"Node","last_modified":{"secs_since_epoch":1646412183,"nanos_since_epoch":733633041},"documentation_file":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-contracts/Readme.md"},"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-frontend":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-frontend","git":["gnoften:noften/noften-marketplace-frontend.git"],"description":"\"Noften\"","language_map":{"CSS":1.4614266,"JSON":3.8277168,"Plain Text":0.0,"JSX":0.3518914,"SVG":2.1957307,"HTML":0.08797285,"Markdown":0.0,"Sass":48.972153,"JavaScript":43.103107},"project_type":"React","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":149347305},"documentation_file":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-marketplace-frontend/README.md"},"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-website":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-website","git":["gnoften:noften/noften-website.git"],"description":"\"\"","language_map":{"Dockerfile":0.037784327,"JSON":0.6385551,"HTML":20.263735,"TSX":7.262148,"Markdown":0.0,"Sass":3.0794225,"PowerShell":0.0037784327,"SVG":0.8123631,"JavaScript":42.03884,"TypeScript":1.3602357,"CSS":24.503136},"project_type":"Node","last_modified":{"secs_since_epoch":1645515942,"nanos_since_epoch":276391983},"documentation_file":null},"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-website-backend":{"name":"\"noften-api\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-website-backend","git":["gnoften:noften/noften-website-backend.git"],"description":null,"language_map":{"TypeScript":16.459597,"Pug":0.10606061,"Dockerfile":0.060606062,"PowerShell":0.18181819,"Shell":0.050505053,"Markdown":0.0,"JavaScript":1.388889,"JSON":81.752525},"project_type":"Node","last_modified":{"secs_since_epoch":1645516101,"nanos_since_epoch":353384017},"documentation_file":"/Users/s_mash/Documents/ratchet/NOFTEN_DEV/noften-website-backend/README.md"},"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/contracts":{"name":"\"noften-marketplace-contracts\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/contracts","git":["gnoften:noften/contracts.git"],"description":"\"\"","language_map":{"Markdown":0.0,"TypeScript":1.3256105,"Solidity":5.1889887,"JSON":93.485405},"project_type":"Node","last_modified":{"secs_since_epoch":1647106277,"nanos_since_epoch":857976913},"documentation_file":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/contracts/Readme.md"},"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-admin":{"name":"\"material-dashboard-react\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-admin","git":["gnoften:noften/marketplace-admin.git"],"description":"\"Material Dashboard React. Coded by Creative Tim\"","language_map":{"CSS":1.9780046,"Markdown":0.0,"HTML":0.17802042,"Plain Text":0.0,"JavaScript":91.98908,"JSON":5.7915974,"SVG":0.06329615},"project_type":"React","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":57104110},"documentation_file":null},"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-backend":{"name":"\"api\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-backend","git":["gnoften:noften/marketplace-backend.git"],"description":"\"\"","language_map":{"JavaScript":99.07431,"JSON":0.8742607,"PowerShell":0.051427104},"project_type":"Node","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":111856460},"documentation_file":null},"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-frontend":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-frontend","git":["gnoften:noften/marketplace-frontend.git"],"description":"\"Noften\"","language_map":{"SVG":2.2770822,"JSON":3.970011,"Plain Text":0.0,"Sass":50.71531,"Markdown":0.0,"JSX":0.36463082,"HTML":0.10790095,"CSS":1.5143341,"JavaScript":41.05073},"project_type":"React","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":149347305},"documentation_file":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/marketplace-frontend/README.md"},"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/website":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/NOFTEN_LIVE/website","git":["gnoften:noften/website.git"],"description":"\"\"","language_map":{"SVG":0.81184155,"JavaScript":42.011856,"JSON":0.6381452,"TSX":7.2574863,"HTML":20.254503,"Markdown":0.0,"Dockerfile":0.03776007,"PowerShell":0.0037760073,"CSS":24.547823,"Sass":3.077446,"TypeScript":1.3593626},"project_type":"Node","last_modified":{"secs_since_epoch":1647106777,"nanos_since_epoch":168109893},"documentation_file":null},"/Users/s_mash/Documents/ratchet/OAB/openalexa-backend":{"name":"\"openalexa-backend\"","path":"/Users/s_mash/Documents/ratchet/OAB/openalexa-backend","git":["git@github.com-openalexa:openalexa/binpro-etherlite-back.git","git@github.com-openalexa:openalexa/openalexa-backend.git","git@github.com-openalexa:openalexa/oap-etherlife-backend.git"],"description":"\"\"","language_map":{"Markdown":0.0,"JSON":0.64636093,"Handlebars":8.0927925,"JavaScript":91.26084},"project_type":"Node","last_modified":{"secs_since_epoch":1630647933,"nanos_since_epoch":851444244},"documentation_file":"/Users/s_mash/Documents/ratchet/OAB/openalexa-backend/Readme.md"},"/Users/s_mash/Documents/ratchet/OAB/openalexa_migration":{"name":"\"ropsten-migrator\"","path":"/Users/s_mash/Documents/ratchet/OAB/openalexa_migration","git":[],"description":"\"\"","language_map":{"JavaScript":17.509933,"Solidity":20.5298,"JSON":61.960262},"project_type":"Node","last_modified":{"secs_since_epoch":1630647928,"nanos_since_epoch":257404327},"documentation_file":null},"/Users/s_mash/Documents/ratchet/OAB/openalexacontracts":{"name":"\"openalexacontracts\"","path":"/Users/s_mash/Documents/ratchet/OAB/openalexacontracts","git":["git@github.com:manishsingh10895/openalexa-contracts.git"],"description":null,"language_map":{"JSON":99.446396,"TypeScript":0.18483503,"Solidity":0.36877495,"Plain Text":0.0,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1630647964,"nanos_since_epoch":913885116},"documentation_file":"/Users/s_mash/Documents/ratchet/OAB/openalexacontracts/Readme.md"},"/Users/s_mash/Documents/ratchet/OABinpro/openalexa-backend":{"name":"\"openalexa-backend\"","path":"/Users/s_mash/Documents/ratchet/OABinpro/openalexa-backend","git":["git@github.com:openalexa/openalexa-backend.git"],"description":"\"\"","language_map":{"JavaScript":76.95723,"JSON":1.6125264,"Handlebars":21.36013,"PowerShell":0.070109844},"project_type":"Node","last_modified":{"secs_since_epoch":1622429584,"nanos_since_epoch":96975326},"documentation_file":null},"/Users/s_mash/Documents/ratchet/aws-manager":{"name":"\"aws-iam-api\"","path":"/Users/s_mash/Documents/ratchet/aws-manager","git":["git@github.com:manishsingh10895/aws_managment.git"],"description":null,"language_map":{"TypeScript":35.158657,"Sass":0.4329731,"Markdown":0.0,"HTML":0.46073306,"Go":0.025895521,"JSON":62.338593,"JavaScript":1.3933861,"Python":0.16738863,"PowerShell":0.006836417,"Dockerfile":0.009736715,"Shell":0.0004143283,"SVG":0.0010358208,"Pug":0.004350447,"Plain Text":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1691394656,"nanos_since_epoch":470248243},"documentation_file":"/Users/s_mash/Documents/ratchet/aws-manager/README.md"},"/Users/s_mash/Documents/ratchet/aws_ws":{"name":"\"aws-iam-api\"","path":"/Users/s_mash/Documents/ratchet/aws_ws","git":["https://github.com/manishsingh10895/aws_managment.git"],"description":null,"language_map":{"Plain Text":0.0,"YAML":13.092844,"Markdown":0.0,"PowerShell":0.042172194,"HTML":3.016934,"JavaScript":0.12002855,"Sass":4.849802,"TypeScript":18.93207,"SVG":0.003244015,"Python":0.29196134,"Pug":0.06812431,"Dockerfile":0.094076425,"JSON":59.488743},"project_type":"Node","last_modified":{"secs_since_epoch":1630647546,"nanos_since_epoch":525732040},"documentation_file":"/Users/s_mash/Documents/ratchet/aws_ws/README.md"},"/Users/s_mash/Documents/ratchet/betafunds":{"name":"\"ifwallet\"","path":"/Users/s_mash/Documents/ratchet/betafunds","git":["git@github.com:manishsingh10895/if-wallet.git"],"description":null,"language_map":{"C Header":0.03993291,"SVG":0.99832284,"TSX":66.45635,"Prolog":0.071879245,"Objective-C":0.68684614,"Java":0.5031547,"Plain Text":0.0,"TypeScript":22.83364,"Shell":1.0382557,"XML":0.5430876,"JSON":2.0765114,"JavaScript":4.145036,"Batch":0.60698026},"project_type":"React","last_modified":{"secs_since_epoch":1625282983,"nanos_since_epoch":301712036},"documentation_file":null},"/Users/s_mash/Documents/ratchet/bitsef/bitsef-monorepo/setu":{"name":"\"bitsef-auth\"","path":"/Users/s_mash/Documents/ratchet/bitsef/bitsef-monorepo/setu","git":[],"description":"\"Authentication microservice for bitsef\"","language_map":{"TypeScript":13.848355,"JSON":86.15165,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1679291822,"nanos_since_epoch":825418456},"documentation_file":"/Users/s_mash/Documents/ratchet/bitsef/bitsef-monorepo/setu/Readme.md"},"/Users/s_mash/Documents/ratchet/bitsef/bitsef-monorepo/tradefrontend":{"name":"\"@openware/base-app\"","path":"/Users/s_mash/Documents/ratchet/bitsef/bitsef-monorepo/tradefrontend","git":[],"description":null,"language_map":{"JavaScript":5.443134,"JSON":42.484577,"Markdown":0.0,"HTML":1.3634888,"PostCSS":9.134194,"Shell":0.0039350325,"SVG":0.48499274,"TypeScript":24.409992,"Plain Text":0.0,"TSX":16.4809,"CSS":0.18199526,"Dockerfile":0.012788856},"project_type":"React","last_modified":{"secs_since_epoch":1679294104,"nanos_since_epoch":255575025},"documentation_file":"/Users/s_mash/Documents/ratchet/bitsef/bitsef-monorepo/tradefrontend/README.md"},"/Users/s_mash/Documents/ratchet/community_bot":{"name":"\"griffexExchange\"","path":"/Users/s_mash/Documents/ratchet/community_bot","git":["https://gitlab.com/griffex-internal/community_bot.git"],"description":"\"Telegram bot for griffex community\"","language_map":{"CSS":1.9730011,"JavaScript":93.97715,"JSON":4.0498443},"project_type":"Node","last_modified":{"secs_since_epoch":1607470397,"nanos_since_epoch":832754135},"documentation_file":null},"/Users/s_mash/Documents/ratchet/crm-api-monitor":{"name":"\"crm-api-monitor\"","path":"/Users/s_mash/Documents/ratchet/crm-api-monitor","git":[],"description":"\"\"","language_map":{"TypeScript":19.741697,"JavaScript":37.638374,"JSON":42.619926},"project_type":"Node","last_modified":{"secs_since_epoch":1672837639,"nanos_since_epoch":730504333},"documentation_file":null},"/Users/s_mash/Documents/ratchet/crm-backend":{"name":"\"life-fundo-api\"","path":"/Users/s_mash/Documents/ratchet/crm-backend","git":["git@github.com:manishsingh10895/insurance_backend.git"],"description":null,"language_map":{"HTML":0.008287043,"Dockerfile":0.0024373657,"JSON":0.079945594,"Shell":0.0051184683,"JavaScript":4.4423428,"CSS":0.010480673,"YAML":0.0038997852,"Pug":0.008043307,"PowerShell":0.012674302,"Markdown":0.0,"TypeScript":95.426765},"project_type":"Node","last_modified":{"secs_since_epoch":1666613991,"nanos_since_epoch":716932296},"documentation_file":"/Users/s_mash/Documents/ratchet/crm-backend/README.md"},"/Users/s_mash/Documents/ratchet/crm-frontend":{"name":"\"crm\"","path":"/Users/s_mash/Documents/ratchet/crm-frontend","git":["git@github.com:manishsingh10895/life-fundo-admin-fe.git","git@github.com:manishsingh10895/crm-frontend.git"],"description":null,"language_map":{"CSS":1.0409044,"Sass":1.5291831,"LESS":0.06687023,"JavaScript":1.1039895,"TSX":30.948296,"SVG":32.03336,"Markdown":0.0,"Shell":0.119861715,"Plain Text":0.0,"PowerShell":0.10093618,"JSON":27.776375,"HTML":0.22458301,"TypeScript":5.055641},"project_type":"React","last_modified":{"secs_since_epoch":1676495564,"nanos_since_epoch":425490853},"documentation_file":"/Users/s_mash/Documents/ratchet/crm-frontend/README.md"},"/Users/s_mash/Documents/ratchet/crm-frontend-copy":{"name":"\"crm\"","path":"/Users/s_mash/Documents/ratchet/crm-frontend-copy","git":["git@github.com:manishsingh10895/crm-frontend.git"],"description":null,"language_map":{"CSS":1.5143719,"Shell":0.00183783,"TypeScript":6.483864,"Sass":2.0271263,"JSON":0.7204293,"LESS":0.099242814,"TSX":40.840256,"HTML":0.3252959,"Markdown":0.0,"JavaScript":1.1982651,"PowerShell":0.12864809,"SVG":46.66066,"Plain Text":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1630647584,"nanos_since_epoch":338336944},"documentation_file":"/Users/s_mash/Documents/ratchet/crm-frontend-copy/README.md"},"/Users/s_mash/Documents/ratchet/crypter-NFT-code/crypter-NFT-code/HTML+CSS(gulp4)":{"name":"\"start-template\"","path":"/Users/s_mash/Documents/ratchet/crypter-NFT-code/crypter-NFT-code/HTML+CSS(gulp4)","git":[],"description":"\"My start Template\"","language_map":{"Pug":5.615409,"SVG":0.70422536,"CSS":18.204752,"HTML":25.59649,"JavaScript":4.1281266,"JSON":30.610153,"Sass":15.140845,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1637102398,"nanos_since_epoch":41896820},"documentation_file":"/Users/s_mash/Documents/ratchet/crypter-NFT-code/crypter-NFT-code/HTML+CSS(gulp4)/README.md"},"/Users/s_mash/Documents/ratchet/crypter-NFT-code/crypter-NFT-code/ReactJS":{"name":"\"crypter-nft\"","path":"/Users/s_mash/Documents/ratchet/crypter-NFT-code/crypter-NFT-code/ReactJS","git":[],"description":null,"language_map":{"Markdown":0.0,"JSON":0.4491018,"JavaScript":46.332336,"Sass":51.571857,"HTML":0.39296407,"SVG":1.2537426,"Plain Text":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1661420224,"nanos_since_epoch":370153427},"documentation_file":"/Users/s_mash/Documents/ratchet/crypter-NFT-code/crypter-NFT-code/ReactJS/README.md"},"/Users/s_mash/Documents/ratchet/cysec":{"name":"\"cysec\"","path":"/Users/s_mash/Documents/ratchet/cysec","git":[],"description":"\"\"","language_map":{"CSS":5.048717,"JSON":0.30467746,"Plain Text":0.0,"HTML":84.4779,"JavaScript":10.165575,"Dockerfile":0.0031329303},"project_type":"Node","last_modified":{"secs_since_epoch":1630647584,"nanos_since_epoch":518135070},"documentation_file":null},"/Users/s_mash/Documents/ratchet/deadletters/adminfront":{"name":"\"adminfront\"","path":"/Users/s_mash/Documents/ratchet/deadletters/adminfront","git":[],"description":null,"language_map":{"CSS":1.0025063,"Markdown":0.0,"HTML":1.754386,"JavaScript":1.754386,"TSX":6.7669177,"SVG":0.08354219,"Sass":60.65163,"JSON":8.521303,"TypeScript":19.46533,"Plain Text":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1622429142,"nanos_since_epoch":635059356},"documentation_file":"/Users/s_mash/Documents/ratchet/deadletters/adminfront/README.md"},"/Users/s_mash/Documents/ratchet/deadletters/backdead":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/deadletters/backdead","git":["git@github.com:manishsingh10895/express-ts-starter.git"],"description":null,"language_map":{"PowerShell":0.4203039,"Pug":0.67895246,"Markdown":0.0,"JSON":4.203039,"TypeScript":94.6977},"project_type":"Node","last_modified":{"secs_since_epoch":1622429146,"nanos_since_epoch":737112045},"documentation_file":"/Users/s_mash/Documents/ratchet/deadletters/backdead/README.md"},"/Users/s_mash/Documents/ratchet/deadletters/deadadmin":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/deadletters/deadadmin","git":["git@github.com:manishsingh10895/express-ts-starter.git"],"description":null,"language_map":{"TypeScript":94.70797,"PowerShell":0.4194902,"JSON":4.1949015,"Pug":0.67763793,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1622429150,"nanos_since_epoch":363550186},"documentation_file":"/Users/s_mash/Documents/ratchet/deadletters/deadadmin/README.md"},"/Users/s_mash/Documents/ratchet/dumper":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/dumper","git":["git@github.com:manishsingh10895/node-mongo-dumper.git"],"description":null,"language_map":{"PowerShell":0.17619951,"TypeScript":35.0366,"Pug":0.28463,"Markdown":0.0,"YAML":62.713474,"JSON":1.7891027},"project_type":"Node","last_modified":{"secs_since_epoch":1630647589,"nanos_since_epoch":586297988},"documentation_file":"/Users/s_mash/Documents/ratchet/dumper/README.md"},"/Users/s_mash/Documents/ratchet/ec2-analyzer":{"name":"\"ciem-aws\"","path":"/Users/s_mash/Documents/ratchet/ec2-analyzer","git":["gali:ali0818/aws-analyzer.git","git@github.com:manishsingh10895/aws-analyzer.git"],"description":"\"Analyze AWS resources from all regions\"","language_map":{"JavaScript":10.200979,"TypeScript":67.33536,"JSON":22.42658,"Markdown":0.0,"PowerShell":0.037080985},"project_type":"Node","last_modified":{"secs_since_epoch":1654555507,"nanos_since_epoch":423103332},"documentation_file":"/Users/s_mash/Documents/ratchet/ec2-analyzer/README.md"},"/Users/s_mash/Documents/ratchet/elfswap/bridge":{"name":"\"kesef-bridge\"","path":"/Users/s_mash/Documents/ratchet/elfswap/bridge","git":["git@github.com:manishsingh10895/kesef-bridge.git"],"description":null,"language_map":{"TSX":18.94498,"Plain Text":0.0,"Markdown":0.0,"Sass":5.776139,"JSON":43.788998,"SVG":2.2972205,"HTML":0.1701645,"TypeScript":27.576101,"JavaScript":1.4463981},"project_type":"React","last_modified":{"secs_since_epoch":1661420224,"nanos_since_epoch":467844009},"documentation_file":"/Users/s_mash/Documents/ratchet/elfswap/bridge/README.md"},"/Users/s_mash/Documents/ratchet/elfswap/elf-backend":{"name":"\"elf-api\"","path":"/Users/s_mash/Documents/ratchet/elfswap/elf-backend","git":["git@github.com:manishsingh10895/elf-website-backend.git"],"description":null,"language_map":{"JSON":3.9227054,"Shell":0.19323671,"JavaScript":5.3140097,"TypeScript":89.23671,"Markdown":0.0,"Pug":0.4057971,"Dockerfile":0.23188405,"PowerShell":0.6956522},"project_type":"Node","last_modified":{"secs_since_epoch":1661420231,"nanos_since_epoch":115592956},"documentation_file":"/Users/s_mash/Documents/ratchet/elfswap/elf-backend/README.md"},"/Users/s_mash/Documents/ratchet/elfswap/elf-monitor":{"name":"\"elf-monitor\"","path":"/Users/s_mash/Documents/ratchet/elfswap/elf-monitor","git":[],"description":"\"\"","language_map":{"JSON":2.8083029,"YAML":93.16239,"TypeScript":4.029304},"project_type":"Node","last_modified":{"secs_since_epoch":1661420231,"nanos_since_epoch":403337478},"documentation_file":null},"/Users/s_mash/Documents/ratchet/elfswap/front-ui/webcomps":{"name":"\"elf-comps\"","path":"/Users/s_mash/Documents/ratchet/elfswap/front-ui/webcomps","git":[],"description":"\"webcomponent for elfswap\"","language_map":{"CSS":0.05039053,"Sass":2.1206014,"HTML":0.054589733,"TypeScript":1.5369111,"JSON":89.45578,"JavaScript":0.016796842,"Markdown":0.0,"TSX":6.7649283},"project_type":"React","last_modified":{"secs_since_epoch":1661420092,"nanos_since_epoch":653369903},"documentation_file":"/Users/s_mash/Documents/ratchet/elfswap/front-ui/webcomps/README.md"},"/Users/s_mash/Documents/ratchet/elfswap/frontend":{"name":"\"frontend\"","path":"/Users/s_mash/Documents/ratchet/elfswap/frontend","git":[],"description":null,"language_map":{"CSS":39.359985,"HTML":0.10423724,"JSON":60.217857,"Markdown":0.0,"SVG":0.0052118623,"TSX":0.23974566,"TypeScript":0.07296608,"Plain Text":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1661420033,"nanos_since_epoch":316457748},"documentation_file":"/Users/s_mash/Documents/ratchet/elfswap/frontend/README.md"},"/Users/s_mash/Documents/ratchet/elfswap/swap-ui":{"name":"\"elfclient-v3\"","path":"/Users/s_mash/Documents/ratchet/elfswap/swap-ui","git":["git@github.com:manishsingh10895/elf-swap-ui.git"],"description":"\"ELFSwap client UI v1\"","language_map":{"HTML":0.11079748,"JSON":9.866252,"Markdown":0.0,"Svelte":2.7646608,"SVG":1.2451526,"CSS":0.45110402,"JavaScript":85.562035},"project_type":"Svelte","last_modified":{"secs_since_epoch":1661419813,"nanos_since_epoch":228143692},"documentation_file":"/Users/s_mash/Documents/ratchet/elfswap/swap-ui/README.md"},"/Users/s_mash/Documents/ratchet/email_template/template":{"name":"\"template\"","path":"/Users/s_mash/Documents/ratchet/email_template/template","git":[],"description":null,"language_map":{"JSON":16.167664,"HTML":0.14970061,"SVG":2.2455091,"TypeScript":13.772455,"Pug":33.08383,"CSS":1.9461079,"JavaScript":32.634727},"project_type":"Node","last_modified":{"secs_since_epoch":1661420277,"nanos_since_epoch":168664932},"documentation_file":null},"/Users/s_mash/Documents/ratchet/etherlife-back":{"name":"\"thinkblock-backend\"","path":"/Users/s_mash/Documents/ratchet/etherlife-back","git":["https://github.com/rdrahul/etherlife-back.git"],"description":"\"\"","language_map":{"JSON":87.247215,"JavaScript":12.752787},"project_type":"Node","last_modified":{"secs_since_epoch":1622429180,"nanos_since_epoch":405059814},"documentation_file":null},"/Users/s_mash/Documents/ratchet/etherlife-backend":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/etherlife-backend","git":["git@github.com:manishsingh10895/express-ts-starter.git"],"description":null,"language_map":{"TOML":0.22877136,"JavaScript":6.0557127,"Rust":4.3870273,"JSON":59.386356,"Markdown":0.0,"PowerShell":0.40371418,"TypeScript":29.25582,"Pug":0.28259993},"project_type":"Node","last_modified":{"secs_since_epoch":1622429188,"nanos_since_epoch":11108398},"documentation_file":null},"/Users/s_mash/Documents/ratchet/faucet":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/faucet","git":["git@github.com:manishsingh10895/faucet-be.git"],"description":null,"language_map":{"JSON":4.740484,"PowerShell":0.449827,"TypeScript":94.083046,"Markdown":0.0,"Pug":0.72664356},"project_type":"Node","last_modified":{"secs_since_epoch":1622429192,"nanos_since_epoch":804359436},"documentation_file":"/Users/s_mash/Documents/ratchet/faucet/README.md"},"/Users/s_mash/Documents/ratchet/faucet-front":{"name":"\"faucet-front\"","path":"/Users/s_mash/Documents/ratchet/faucet-front","git":["git@github.com:manishsingh10895/faucet-fe.git"],"description":null,"language_map":{"Markdown":0.0,"HTML":0.7668177,"Plain Text":0.0,"TSX":48.20495,"TypeScript":15.022656,"CSS":0.48797488,"SVG":0.52283025,"PowerShell":0.03485535,"JavaScript":0.1394214,"JSON":5.855699,"Sass":28.964796},"project_type":"React","last_modified":{"secs_since_epoch":1622429208,"nanos_since_epoch":551361083},"documentation_file":"/Users/s_mash/Documents/ratchet/faucet-front/README.md"},"/Users/s_mash/Documents/ratchet/if-mailers":{"name":"\"if-mailers\"","path":"/Users/s_mash/Documents/ratchet/if-mailers","git":["https://github.com/manishsingh10895/if-mailers.git"],"description":"\"reusable mailers\"","language_map":{"HTML":20.131947,"JavaScript":4.0183926,"JSON":73.97041,"Markdown":0.0,"CSS":1.1795281,"TypeScript":0.6997201},"project_type":"Node","last_modified":{"secs_since_epoch":1622429209,"nanos_since_epoch":622493743},"documentation_file":"/Users/s_mash/Documents/ratchet/if-mailers/README.md"},"/Users/s_mash/Documents/ratchet/insurance_backend":{"name":"\"crm-api\"","path":"/Users/s_mash/Documents/ratchet/insurance_backend","git":["git@github.com:manishsingh10895/life-fundo-back.git","git@github.com:manishsingh10895/insurance_backend.git","https://github.com/manishsingh10895/volicy_backend.git"],"description":null,"language_map":{"HTML":0.007812643,"JSON":9.684231,"Markdown":0.0,"PowerShell":0.011948749,"Dockerfile":0.0032169707,"CSS":0.009880696,"Pug":0.0075828596,"YAML":0.008501994,"Shell":0.004825456,"TypeScript":90.262},"project_type":"Node","last_modified":{"secs_since_epoch":1690469128,"nanos_since_epoch":503780280},"documentation_file":"/Users/s_mash/Documents/ratchet/insurance_backend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/bridge":{"name":"\"kesef-bridge\"","path":"/Users/s_mash/Documents/ratchet/kesef/bridge","git":["https://github.com/kesef-finance/kesef-bridge-frontend.git","https://github.com/manishsingh10895/kesef-bridge.git"],"description":null,"language_map":{"TypeScript":27.464985,"Markdown":0.0,"JavaScript":1.4381051,"JSON":43.462734,"HTML":0.16918883,"SVG":2.2840493,"Plain Text":0.0,"Sass":5.9028106,"TSX":19.278128},"project_type":"React","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":177499771},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/bridge/README.md"},"/Users/s_mash/Documents/ratchet/kesef/bridge-mainnet":{"name":"\"kesef-bridge\"","path":"/Users/s_mash/Documents/ratchet/kesef/bridge-mainnet","git":["git@github.com:kesef-finance/kesef-bridge-frontend.git"],"description":null,"language_map":{"JavaScript":1.3956034,"SVG":2.2165465,"JSON":45.188362,"Markdown":0.0,"Plain Text":0.0,"HTML":0.16418862,"Sass":5.728359,"TSX":18.772234,"TypeScript":26.534706},"project_type":"React","last_modified":{"secs_since_epoch":1630647670,"nanos_since_epoch":676214218},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/bridge-mainnet/README.md"},"/Users/s_mash/Documents/ratchet/kesef/harvest/harvest-bsc":{"name":"\"@harvest-finance/harvest-bsc\"","path":"/Users/s_mash/Documents/ratchet/kesef/harvest/harvest-bsc","git":["https://github.com/QuantSoldier/harvest-bsc.git"],"description":"\"Harvest Finance: Binance Smart Chain\"","language_map":{"JSON":1.1145997,"TypeScript":26.499214,"Markdown":0.0,"Solidity":72.386185},"project_type":"Node","last_modified":{"secs_since_epoch":1618941043,"nanos_since_epoch":86830139},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/harvest/harvest-bsc/README.md"},"/Users/s_mash/Documents/ratchet/kesef/harvest/harvest-strategy-bsc":{"name":"\"harvest-strategy-bsc\"","path":"/Users/s_mash/Documents/ratchet/kesef/harvest/harvest-strategy-bsc","git":["https://github.com/harvest-finance/harvest-strategy-bsc.git"],"description":"\"The Hardhat environment is configured to use Mainnet fork by default and provides templates and utilities for strategy development and testing.\"","language_map":{"JSON":0.46774507,"Markdown":0.0,"JavaScript":39.875267,"Solidity":59.65699},"project_type":"Node","last_modified":{"secs_since_epoch":1618940414,"nanos_since_epoch":626245498},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/harvest/harvest-strategy-bsc/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-backend":{"name":"\"kesef-bridge-backend\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-backend","git":["https://github.com/kesef-finance/kesef-bridge-backend.git"],"description":"\"\"","language_map":{"JavaScript":23.768019,"HTML":0.748687,"JSON":75.48329},"project_type":"Node","last_modified":{"secs_since_epoch":1630647675,"nanos_since_epoch":174013137},"documentation_file":null},"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-contracts":{"name":"\"kesef-bridge-contracts\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-contracts","git":["https://github.com/kesef-finance/kesef-contracts.git"],"description":null,"language_map":{"JSON":1.2401353,"JavaScript":1.9165727,"Solidity":96.84329},"project_type":"Node","last_modified":{"secs_since_epoch":1630647675,"nanos_since_epoch":230621337},"documentation_file":null},"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-frontend":{"name":"\"kesef-bridge\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-frontend","git":["https://github.com/kesef-finance/kesef-bridge-frontend.git"],"description":null,"language_map":{"CSS":0.019678583,"JavaScript":1.180715,"Plain Text":0.0,"Markdown":0.0,"JSON":80.81776,"TypeScript":12.578988,"HTML":0.045916695,"SVG":0.48321852,"TSX":4.873729},"project_type":"React","last_modified":{"secs_since_epoch":1630647693,"nanos_since_epoch":812618255},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-bridge-frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-contracts":{"name":"\"blizzard\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-contracts","git":["https://github.com/blzd-dev/blzd-contracts.git"],"description":null,"language_map":{"JSON":64.549965,"Solidity":35.45003,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1622429237,"nanos_since_epoch":761098861},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-contracts/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-core":{"name":"\"PancakeSwap\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-core","git":["https://github.com/pancakeswap/pancake-farm.git"],"description":null,"language_map":{"JavaScript":38.01783,"Markdown":0.0,"JSON":1.6255898,"Solidity":60.356583},"project_type":"Node","last_modified":{"secs_since_epoch":1619573901,"nanos_since_epoch":764640808},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-core/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend":{"name":"\"blzd-frontend\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend","git":["https://github.com/blzd-dev/blzd-frontend.git"],"description":null,"language_map":{"JavaScript":0.8456959,"SVG":0.15591042,"Plain Text":0.0,"TSX":36.53501,"JSON":45.209297,"HTML":0.15118587,"TypeScript":17.088728,"TOML":0.014173674,"Markdown":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1622429251,"nanos_since_epoch":231838226},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend-amm":{"name":"\"kesef-frontend-amm\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend-amm","git":["https://github.com/kesef-finance/kesef-frontend-amm.git"],"description":"\"AMM Interface\"","language_map":{"TSX":43.367874,"Batch":0.047103155,"JSON":23.895432,"Markdown":0.0,"SVG":0.58878946,"JavaScript":0.3297221,"HTML":0.19312294,"TypeScript":31.577957},"project_type":"React","last_modified":{"secs_since_epoch":1630647710,"nanos_since_epoch":787210464},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend-amm/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend-farms":{"name":"\"goose-frontend\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend-farms","git":["https://github.com/kesef-finance/kesef-frontend-farms.git"],"description":null,"language_map":{"HTML":0.06348234,"JavaScript":0.39183927,"Markdown":0.0,"TOML":0.0065671382,"TypeScript":6.2759953,"Batch":0.021890461,"SVG":0.33492404,"TSX":16.560133,"JSON":76.34517,"Plain Text":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1630647910,"nanos_since_epoch":686658859},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-frontend-farms/README.md"},"/Users/s_mash/Documents/ratchet/kesef/kesef-landing":{"name":"\"kesef\"","path":"/Users/s_mash/Documents/ratchet/kesef/kesef-landing","git":["git@github.com:kesef-finance/kesef-landing.git"],"description":null,"language_map":{"JavaScript":6.352891,"Pug":3.148957,"SVG":0.94071656,"XML":0.03359702,"JSON":56.922512,"Sass":32.601326,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1630647737,"nanos_since_epoch":362573623},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/kesef-landing/README.md"},"/Users/s_mash/Documents/ratchet/kesef/mobileapp/balancechecker":{"name":"\"balancechecker\"","path":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/balancechecker","git":[],"description":null,"language_map":{"Solidity":0.5704882,"JSON":99.23752,"JavaScript":0.19199122},"project_type":"Node","last_modified":{"secs_since_epoch":1622429269,"nanos_since_epoch":418893814},"documentation_file":null},"/Users/s_mash/Documents/ratchet/kesef/mobileapp/clone_wallet":{"name":"\"kesef_wallet\"","path":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/clone_wallet","git":["git@github.com:kesef-finance/kesef-mobile-app.git","git@github.com:Holyheld/holy_wallet.git"],"description":null,"language_map":{"Objective-C":0.76796985,"C Header":0.12008911,"Objective-C++":0.1543145,"XML":0.10327663,"Batch":0.09246861,"Markdown":0.0,"PowerShell":0.0024017822,"Plain Text":0.0,"TypeScript":2.1562,"Swift":1.0225588,"Shell":0.16812475,"YAML":0.1609194,"JSON":51.26664,"Java":0.47855508,"Prolog":0.012609357,"JavaScript":43.493874},"project_type":"React","last_modified":{"secs_since_epoch":1693447892,"nanos_since_epoch":155103133},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/clone_wallet/README.md"},"/Users/s_mash/Documents/ratchet/kesef/mobileapp/holy-contracts":{"name":"\"Holyheld\"","path":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/holy-contracts","git":["git@github.com:Holyheld/holy-contracts.git"],"description":null,"language_map":{"Markdown":0.0,"Plain Text":0.0,"JSON":26.272663,"Solidity":41.82116,"JavaScript":31.906176},"project_type":"Node","last_modified":{"secs_since_epoch":1622429329,"nanos_since_epoch":445636749},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/holy-contracts/README.md"},"/Users/s_mash/Documents/ratchet/kesef/mobileapp/holy_wallet":{"name":"\"holy_wallet\"","path":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/holy_wallet","git":["git@github.com:Holyheld/holy_wallet.git"],"description":null,"language_map":{"JSON":61.287647,"Java":0.37771618,"Prolog":0.009952371,"Markdown":0.0,"PowerShell":0.0018956896,"TypeScript":1.9563516,"Batch":0.072984055,"JavaScript":34.32241,"Swift":0.8070899,"Objective-C":0.60614675,"XML":0.08151466,"YAML":0.12701121,"C Header":0.09478448,"Objective-C++":0.12179806,"Shell":0.13269827},"project_type":"React","last_modified":{"secs_since_epoch":1693446322,"nanos_since_epoch":860641886},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/holy_wallet/README.md"},"/Users/s_mash/Documents/ratchet/kesef/mobileapp/rainbow":{"name":"\"Rainbow\"","path":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/rainbow","git":["git@github.com:rainbow-me/rainbow.git"],"description":null,"language_map":{"JSON":51.25917,"XML":0.102638304,"JavaScript":39.689487,"Shell":0.20713149,"C Header":0.12860702,"Objective-C++":0.16817841,"Swift":1.2341328,"Prolog":0.012984362,"TypeScript":4.602648,"Objective-C":0.9800103,"Java":0.49958882,"YAML":0.1657052,"Markdown":0.0,"Batch":0.095218666,"TSX":0.8544948},"project_type":"React","last_modified":{"secs_since_epoch":1622429352,"nanos_since_epoch":19174575},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/mobileapp/rainbow/README.md"},"/Users/s_mash/Documents/ratchet/kesef/practive/blzd-contracts":{"name":"\"blizzard\"","path":"/Users/s_mash/Documents/ratchet/kesef/practive/blzd-contracts","git":["https://github.com/blzd-dev/blzd-contracts.git"],"description":null,"language_map":{"Markdown":0.0,"Solidity":98.84348,"JSON":1.1565151},"project_type":"Node","last_modified":{"secs_since_epoch":1622429357,"nanos_since_epoch":266963958},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/practive/blzd-contracts/README.md"},"/Users/s_mash/Documents/ratchet/kesef/practive/blzd-frontend":{"name":"\"blzd-frontend\"","path":"/Users/s_mash/Documents/ratchet/kesef/practive/blzd-frontend","git":["https://github.com/blzd-dev/blzd-frontend.git"],"description":null,"language_map":{"HTML":0.15019947,"JSON":44.914337,"TSX":36.296646,"TypeScript":17.629665,"SVG":0.15489322,"Plain Text":0.0,"JavaScript":0.8401783,"Markdown":0.0,"TOML":0.0140812015},"project_type":"React","last_modified":{"secs_since_epoch":1622429373,"nanos_since_epoch":232847213},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/practive/blzd-frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/practive/pancake-farm":{"name":"\"PancakeSwap\"","path":"/Users/s_mash/Documents/ratchet/kesef/practive/pancake-farm","git":["https://github.com/pancakeswap/pancake-farm.git"],"description":null,"language_map":{"Markdown":0.0,"JavaScript":38.50156,"JSON":1.6129031,"Solidity":59.885536},"project_type":"Node","last_modified":{"secs_since_epoch":1622429384,"nanos_since_epoch":571544647},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/practive/pancake-farm/README.md"},"/Users/s_mash/Documents/ratchet/kesef/practive/pancake-frontend":{"name":"\"pancake-frontend\"","path":"/Users/s_mash/Documents/ratchet/kesef/practive/pancake-frontend","git":["https://github.com/pancakeswap/pancake-frontend.git"],"description":null,"language_map":{"TOML":0.007872776,"JSX":0.031491105,"Plain Text":0.0,"JSON":20.56369,"HTML":0.11284312,"TSX":45.499397,"SVG":1.440718,"TypeScript":32.343987,"Markdown":0.0},"project_type":"React","last_modified":{"secs_since_epoch":1630647916,"nanos_since_epoch":708768844},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/practive/pancake-frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/prototype/core-contracts":{"name":"\"@pancakeswap-libs/pancake-swap-core\"","path":"/Users/s_mash/Documents/ratchet/kesef/prototype/core-contracts","git":["git@github.com:manishsingh10895/kesef-core.git","https://github.com/pancakeswap/pancake-swap-core.git"],"description":"\"🎛 Core contracts for the pancake protocol\"","language_map":{"Markdown":0.0,"JSON":5.658709,"TypeScript":48.010612,"JavaScript":4.3324494,"Solidity":41.99823},"project_type":"Node","last_modified":{"secs_since_epoch":1622429410,"nanos_since_epoch":449151992},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/prototype/core-contracts/README.md"},"/Users/s_mash/Documents/ratchet/kesef/prototype/frontend":{"name":"\"pancake-frontend\"","path":"/Users/s_mash/Documents/ratchet/kesef/prototype/frontend","git":["https://github.com/pancakeswap/pancake-frontend.git"],"description":null,"language_map":{"TSX":30.324703,"Plain Text":0.0,"SVG":1.3172548,"TOML":0.005220297,"TypeScript":21.549385,"JSON":46.707733,"HTML":0.07482425,"Markdown":0.0,"JSX":0.020881187},"project_type":"React","last_modified":{"secs_since_epoch":1622429426,"nanos_since_epoch":501245498},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/prototype/frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-core":{"name":"\"PancakeSwap\"","path":"/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-core","git":["git@github.com:manishsingh10895/kesef-farms-contracts.git","https://github.com/pancakeswap/pancake-farm.git"],"description":null,"language_map":{"Markdown":0.0,"Solidity":60.24574,"JSON":1.2683313,"JavaScript":38.485928},"project_type":"Node","last_modified":{"secs_since_epoch":1622429440,"nanos_since_epoch":171455383},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-core/README.md"},"/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-periphery":{"name":"\"pancakeswap-peripheral\"","path":"/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-periphery","git":["git@github.com:manishsingh10895/kesef-periphery.git","https://github.com/pancakeswap/pancake-swap-periphery.git"],"description":"\"🎚 Peripheral smart contracts for interacting with pancake\"","language_map":{"JSON":96.29352,"Markdown":0.0,"TypeScript":1.7119793,"Solidity":1.9339648,"JavaScript":0.06054151},"project_type":"Node","last_modified":{"secs_since_epoch":1622429445,"nanos_since_epoch":245248794},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-periphery/README.md"},"/Users/s_mash/Documents/ratchet/kesef/rainbow-bridge-frontend":{"name":"\"rainbow-bridge-frontend\"","path":"/Users/s_mash/Documents/ratchet/kesef/rainbow-bridge-frontend","git":["https://github.com/aurora-is-near/rainbow-bridge-frontend.git"],"description":null,"language_map":{"Markdown":0.0,"SVG":7.7677517,"CSS":26.245584,"HTML":46.802666,"XML":0.07846214,"JavaScript":15.103963,"JSON":4.0015693},"project_type":"Node","last_modified":{"secs_since_epoch":1623137989,"nanos_since_epoch":185581207},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/rainbow-bridge-frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap":{"name":"\"@sushiswap/core\"","path":"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap","git":["https://github.com/sushiswap/sushiswap.git"],"description":"\"Core contracts for the SushiSwap protocol\"","language_map":{"Markdown":0.0,"RPM Specfile":0.08368642,"TypeScript":0.27675825,"JSON":98.56964,"JavaScript":0.08764011,"Plain Text":0.0,"Solidity":0.98095423,"Shell":0.0013178964},"project_type":"Node","last_modified":{"secs_since_epoch":1622429448,"nanos_since_epoch":731369018},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap/README.md"},"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-interface":{"name":"\"@sushiswap/interface\"","path":"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-interface","git":["https://github.com/sushiswap/sushiswap-interface.git"],"description":"\"SushiSwap Interface\"","language_map":{"JSON":18.462845,"CSS":0.087207966,"Markdown":0.0,"TypeScript":29.171064,"TSX":48.40042,"HTML":0.0642585,"SVG":0.61045575,"JavaScript":3.2037451},"project_type":"Node","last_modified":{"secs_since_epoch":1622429478,"nanos_since_epoch":259740829},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-interface/README.md"},"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend":{"name":"\"yam\"","path":"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend","git":["https://github.com/sushiswap/sushiswap-legacy-frontend.git"],"description":null,"language_map":{"Markdown":0.0,"CSS":0.18598884,"JavaScript":15.964042,"SVG":0.29448235,"TSX":48.06262,"TypeScript":10.213887,"HTML":0.4649721,"Plain Text":0.0,"JSON":24.81401},"project_type":"React","last_modified":{"secs_since_epoch":1622429495,"nanos_since_epoch":165714263},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend/README.md"},"/Users/s_mash/Documents/ratchet/kesef/uniswap/core":{"name":"\"core\"","path":"/Users/s_mash/Documents/ratchet/kesef/uniswap/core","git":[],"description":null,"language_map":{"JSON":99.3203,"Solidity":0.6245519,"JavaScript":0.055148073},"project_type":"Node","last_modified":{"secs_since_epoch":1622429495,"nanos_since_epoch":335716247},"documentation_file":null},"/Users/s_mash/Documents/ratchet/kesef/uniswap/migrator":{"name":"\"migrator\"","path":"/Users/s_mash/Documents/ratchet/kesef/uniswap/migrator","git":[],"description":null,"language_map":{"JSON":99.61704,"JavaScript":0.060649116,"Solidity":0.32230675},"project_type":"Node","last_modified":{"secs_since_epoch":1622429495,"nanos_since_epoch":406719207},"documentation_file":null},"/Users/s_mash/Documents/ratchet/kesef/uniswap/periphery":{"name":"periphery","path":"/Users/s_mash/Documents/ratchet/kesef/uniswap/periphery","git":[],"description":null,"language_map":{"JavaScript":0.011675092,"JSON":99.33699,"Solidity":0.6513286,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1622429495,"nanos_since_epoch":438720703},"documentation_file":null},"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-interface":{"name":"\"@uniswap/interface\"","path":"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-interface","git":["https://github.com/Uniswap/uniswap-interface.git"],"description":"\"Uniswap Interface\"","language_map":{"JavaScript":0.26114395,"JSON":18.399767,"TSX":51.847958,"SVG":0.7253999,"Markdown":0.0,"HTML":0.10155597,"TypeScript":28.664175},"project_type":"Node","last_modified":{"secs_since_epoch":1622429521,"nanos_since_epoch":465070724},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-interface/README.md"},"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-core":{"name":"\"@uniswap/v2-core\"","path":"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-core","git":["https://github.com/Uniswap/uniswap-v2-core.git"],"description":"\"🎛 Core contracts for the UniswapV2 protocol\"","language_map":{"JSON":5.5937195,"Solidity":41.60942,"Markdown":0.0,"TypeScript":52.79686},"project_type":"Node","last_modified":{"secs_since_epoch":1622429528,"nanos_since_epoch":329566955},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-core/README.md"},"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-periphery":{"name":"\"@uniswap/v2-periphery\"","path":"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-periphery","git":["https://github.com/Uniswap/uniswap-v2-periphery.git"],"description":"\"🎚 Peripheral smart contracts for interacting with Uniswap V2\"","language_map":{"JSON":13.743658,"Markdown":0.0,"TypeScript":48.621223,"Solidity":37.63512},"project_type":"Node","last_modified":{"secs_since_epoch":1622429534,"nanos_since_epoch":408235549},"documentation_file":"/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-periphery/README.md"},"/Users/s_mash/Documents/ratchet/life-fundo/admin-fe":{"name":"\"crm\"","path":"/Users/s_mash/Documents/ratchet/life-fundo/admin-fe","git":["git@github.com:manishsingh10895/crm-frontend.git","git@github.com:manishsingh10895/life-fundo-admin-fe.git"],"description":null,"language_map":{"JavaScript":0.581752,"HTML":0.041553713,"Shell":0.0019787482,"SVG":50.238438,"Plain Text":0.0,"TSX":39.828243,"TypeScript":6.3319945,"JSON":0.55998576,"PowerShell":0.0019787482,"Markdown":0.0,"CSS":0.16027862,"LESS":0.10685241,"Sass":2.146942},"project_type":"React","last_modified":{"secs_since_epoch":1622429551,"nanos_since_epoch":239206314},"documentation_file":"/Users/s_mash/Documents/ratchet/life-fundo/admin-fe/README.md"},"/Users/s_mash/Documents/ratchet/life-fundo/backend":{"name":"\"life-fundo-api\"","path":"/Users/s_mash/Documents/ratchet/life-fundo/backend","git":["git@github.com:manishsingh10895/insurance_backend.git","git@github.com:manishsingh10895/life-fundo-back.git"],"description":null,"language_map":{"Dockerfile":0.0024662737,"Shell":0.0051791747,"Markdown":0.0,"JavaScript":0.083853304,"Pug":0.008138703,"CSS":0.010604977,"JSON":4.303401,"TypeScript":95.57304,"YAML":0.003946038,"PowerShell":0.00937184},"project_type":"Node","last_modified":{"secs_since_epoch":1622429555,"nanos_since_epoch":409797668},"documentation_file":"/Users/s_mash/Documents/ratchet/life-fundo/backend/README.md"},"/Users/s_mash/Documents/ratchet/life-fundo/ravepay-nodejs":{"name":"\"flutterwave-node\"","path":"/Users/s_mash/Documents/ratchet/life-fundo/ravepay-nodejs","git":["https://github.com/Flutterwave/ravepay-nodejs.git"],"description":"\"Official Node library for Rave by Flutterwave\"","language_map":{"JSON":15.932873,"Markdown":0.0,"Pug":0.88845015,"JavaScript":83.17867},"project_type":"Node","last_modified":{"secs_since_epoch":1602747584,"nanos_since_epoch":987733840},"documentation_file":"/Users/s_mash/Documents/ratchet/life-fundo/ravepay-nodejs/Readme.md"},"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-backend":{"name":"\"api\"","path":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-backend","git":["git@github.com:karankohli13/noften-marketplace-backend.git"],"description":"\"\"","language_map":{"JavaScript":99.033165,"PowerShell":0.044969086,"JSON":0.9218662},"project_type":"Node","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":54222106},"documentation_file":null},"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts":{"name":"\"noften-marketplace-contracts\"","path":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts","git":["git@github.com:karankohli13/noften-marketplace-contracts.git"],"description":"\"\"","language_map":{"TypeScript":3.5603218,"Markdown":0.0,"Solidity":8.959785,"JSON":87.4799},"project_type":"Node","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":99849700},"documentation_file":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts/Readme.md"},"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend","git":["git@github.com:karankohli13/noften-marketplace-frontend.git"],"description":"\"Noften\"","language_map":{"Sass":4.43348,"Plain Text":0.0,"JSON":3.5132897,"JavaScript":45.56652,"Markdown":0.0,"SVG":3.3296115,"HTML":0.08823741,"CSS":42.71591,"JSX":0.35294965},"project_type":"React","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":100847244},"documentation_file":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend/README.md"},"/Users/s_mash/Documents/ratchet/noften":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/noften","git":["git@github.com:karankohli13/noften.git"],"description":"\"\"","language_map":{"SVG":0.39039293,"JSON":0.7383519,"PowerShell":0.0042434013,"Markdown":0.0,"TypeScript":1.4936773,"YAML":3.2674193,"JavaScript":47.16541,"Sass":2.1429176,"HTML":11.143172,"CSS":26.754648,"TSX":6.857337,"Dockerfile":0.042434018},"project_type":"Node","last_modified":{"secs_since_epoch":1661420223,"nanos_since_epoch":648601531},"documentation_file":null},"/Users/s_mash/Documents/ratchet/noften-backend":{"name":"\"noften-api\"","path":"/Users/s_mash/Documents/ratchet/noften-backend","git":["git@github.com:karankohli13/noften-backend.git"],"description":null,"language_map":{"Dockerfile":0.06088898,"Shell":0.050740816,"Pug":0.106555715,"JavaScript":1.3953724,"JSON":82.134155,"Markdown":0.0,"PowerShell":0.18266693,"TypeScript":16.069616},"project_type":"Node","last_modified":{"secs_since_epoch":1661420226,"nanos_since_epoch":561571121},"documentation_file":"/Users/s_mash/Documents/ratchet/noften-backend/README.md"},"/Users/s_mash/Documents/ratchet/openalexa-backend":{"name":"\"openalexa-backend\"","path":"/Users/s_mash/Documents/ratchet/openalexa-backend","git":["git@github.com:openalexa/openalexa-backend.git"],"description":"\"\"","language_map":{"JavaScript":89.689964,"JSON":0.70415133,"Handlebars":9.6058855},"project_type":"Node","last_modified":{"secs_since_epoch":1630647990,"nanos_since_epoch":314065933},"documentation_file":null},"/Users/s_mash/Documents/ratchet/quick-trade":{"name":"\"quick-trade\"","path":"/Users/s_mash/Documents/ratchet/quick-trade","git":[],"description":"\"\"","language_map":{"JSON":94.04734,"TypeScript":5.9526544},"project_type":"Node","last_modified":{"secs_since_epoch":1683010120,"nanos_since_epoch":519967954},"documentation_file":null},"/Users/s_mash/Documents/ratchet/resolver":{"name":"\"resolver\"","path":"/Users/s_mash/Documents/ratchet/resolver","git":["git@github.com:manishsingh10895/resolver.git"],"description":"\"resolve hostnames\"","language_map":{"Markdown":0.0,"Plain Text":0.0,"Batch":0.9433962,"JSON":30.188679,"TypeScript":68.86792},"project_type":"Node","last_modified":{"secs_since_epoch":1622429613,"nanos_since_epoch":330633163},"documentation_file":"/Users/s_mash/Documents/ratchet/resolver/README.md"},"/Users/s_mash/Documents/ratchet/rust-aws-manager":{"name":"\"rust-aws-manager\"","path":"/Users/s_mash/Documents/ratchet/rust-aws-manager","git":[],"description":null,"language_map":{"Rust":65.51724,"TOML":34.482758},"project_type":"Rust","last_modified":{"secs_since_epoch":1661418473,"nanos_since_epoch":468605041},"documentation_file":null},"/Users/s_mash/Documents/ratchet/scc-email-template":{"name":"\"newsletter\"","path":"/Users/s_mash/Documents/ratchet/scc-email-template","git":[],"description":"\"\"","language_map":{"HTML":0.7995114,"Python":3.9864528,"Plain Text":0.0,"JavaScript":0.0,"CSS":0.027760813,"JSON":94.89201,"Pug":0.2942646},"project_type":"Node","last_modified":{"secs_since_epoch":1669302387,"nanos_since_epoch":437828063},"documentation_file":null},"/Users/s_mash/Documents/ratchet/tele-bot":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/tele-bot","git":["git@github.com:manishsingh10895/express-ts-starter.git"],"description":null,"language_map":{"JSON":4.9056606,"TypeScript":93.811325,"Pug":0.7924528,"PowerShell":0.49056602,"Markdown":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1622429616,"nanos_since_epoch":573678970},"documentation_file":"/Users/s_mash/Documents/ratchet/tele-bot/README.md"},"/Users/s_mash/Documents/ratchet/traderepublic_poc":{"name":"\"traderepublic_poc\"","path":"/Users/s_mash/Documents/ratchet/traderepublic_poc","git":[],"description":null,"language_map":{"CSS":11.952191,"TSX":58.565735,"TypeScript":4.183267,"SVG":0.99601597,"Plain Text":0.0,"HTML":3.9840639,"Markdown":0.0,"JSON":20.318726},"project_type":"React","last_modified":{"secs_since_epoch":1661420224,"nanos_since_epoch":184926986},"documentation_file":"/Users/s_mash/Documents/ratchet/traderepublic_poc/README.md"},"/Users/s_mash/Documents/ratchet/volicy_backend":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/volicy_backend","git":["https://github.com/manishsingh10895/volicy_backend.git"],"description":null,"language_map":{"PowerShell":0.180675,"Pug":0.151767,"YAML":0.115632,"JavaScript":2.45718,"Shell":0.122859,"CSS":0.158994,"Markdown":0.0,"JSON":1.9946519,"TypeScript":94.74597,"Dockerfile":0.072270006},"project_type":"Node","last_modified":{"secs_since_epoch":1622429620,"nanos_since_epoch":62768936},"documentation_file":"/Users/s_mash/Documents/ratchet/volicy_backend/README.md"}},"last_indexed":{"secs_since_epoch":1693448402,"nanos_since_epoch":509579000}}ce_epoch":1661420278,"nanos_since_epoch":54222106},"documentation_file":null},"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts":{"name":"\"noften-marketplace-contracts\"","path":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts","git":["git@github.com:karankohli13/noften-marketplace-contracts.git"],"description":"\"\"","language_map":{"TypeScript":3.5603218,"JSON":87.4799,"Markdown":0.0,"Solidity":8.959785},"project_type":"Node","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":99849700},"documentation_file":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts/Readme.md"},"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend","git":["git@github.com:karankohli13/noften-marketplace-frontend.git"],"description":"\"Noften\"","language_map":{"JavaScript":45.56652,"CSS":42.71591,"Sass":4.43348,"Plain Text":0.0,"Markdown":0.0,"HTML":0.08823741,"JSX":0.35294965,"SVG":3.3296115,"JSON":3.5132897},"project_type":"React","last_modified":{"secs_since_epoch":1661420278,"nanos_since_epoch":100847244},"documentation_file":"/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend/README.md"},"/Users/s_mash/Documents/ratchet/noften":{"name":"\"noften\"","path":"/Users/s_mash/Documents/ratchet/noften","git":["git@github.com:karankohli13/noften.git"],"description":"\"\"","language_map":{"Dockerfile":0.042434018,"HTML":11.143172,"YAML":3.2674193,"CSS":26.754648,"PowerShell":0.0042434013,"JavaScript":47.16541,"JSON":0.7383519,"Markdown":0.0,"SVG":0.39039293,"TypeScript":1.4936773,"Sass":2.1429176,"TSX":6.857337},"project_type":"Node","last_modified":{"secs_since_epoch":1661420223,"nanos_since_epoch":648601531},"documentation_file":null},"/Users/s_mash/Documents/ratchet/noften/noften-comps":{"name":"\"noften-comps\"","path":"/Users/s_mash/Documents/ratchet/noften/noften-comps","git":[],"description":"\"webcomponent for noften\"","language_map":{"Sass":19.157814,"TSX":61.30501,"Markdown":0.0,"HTML":0.49317148,"JavaScript":0.15174507,"CSS":0.4552352,"JSON":5.08346,"TypeScript":13.353565},"project_type":"React","last_modified":{"secs_since_epoch":1661420224,"nanos_since_epoch":254705429},"documentation_file":"/Users/s_mash/Documents/ratchet/noften/noften-comps/README.md"},"/Users/s_mash/Documents/ratchet/noften-backend":{"name":"\"noften-api\"","path":"/Users/s_mash/Documents/ratchet/noften-backend","git":["git@github.com:karankohli13/noften-backend.git"],"description":null,"language_map":{"JavaScript":1.3953724,"TypeScript":16.069616,"Shell":0.050740816,"Pug":0.106555715,"JSON":82.134155,"PowerShell":0.18266693,"Markdown":0.0,"Dockerfile":0.06088898},"project_type":"Node","last_modified":{"secs_since_epoch":1661420226,"nanos_since_epoch":561571121},"documentation_file":"/Users/s_mash/Documents/ratchet/noften-backend/README.md"},"/Users/s_mash/Documents/ratchet/openalexa-backend":{"name":"\"openalexa-backend\"","path":"/Users/s_mash/Documents/ratchet/openalexa-backend","git":["git@github.com:openalexa/openalexa-backend.git"],"description":"\"\"","language_map":{"Handlebars":9.6058855,"JavaScript":89.689964,"JSON":0.70415133},"project_type":"Node","last_modified":{"secs_since_epoch":1630647990,"nanos_since_epoch":314065933},"documentation_file":null},"/Users/s_mash/Documents/ratchet/quick-trade":{"name":"\"quick-trade\"","path":"/Users/s_mash/Documents/ratchet/quick-trade","git":[],"description":"\"\"","language_map":{"TypeScript":5.9526544,"JSON":94.04734},"project_type":"Node","last_modified":{"secs_since_epoch":1683010120,"nanos_since_epoch":519967954},"documentation_file":null},"/Users/s_mash/Documents/ratchet/resolver":{"name":"\"resolver\"","path":"/Users/s_mash/Documents/ratchet/resolver","git":["git@github.com:manishsingh10895/resolver.git"],"description":"\"resolve hostnames\"","language_map":{"Markdown":0.0,"Plain Text":0.0,"Batch":0.9433962,"TypeScript":68.86792,"JSON":30.188679},"project_type":"Node","last_modified":{"secs_since_epoch":1622429613,"nanos_since_epoch":330633163},"documentation_file":"/Users/s_mash/Documents/ratchet/resolver/README.md"},"/Users/s_mash/Documents/ratchet/rust-aws-manager":{"name":"\"rust-aws-manager\"","path":"/Users/s_mash/Documents/ratchet/rust-aws-manager","git":[],"description":null,"language_map":{"Rust":65.51724,"TOML":34.482758},"project_type":"Rust","last_modified":{"secs_since_epoch":1661418473,"nanos_since_epoch":468605041},"documentation_file":null},"/Users/s_mash/Documents/ratchet/scc-email-template":{"name":"\"newsletter\"","path":"/Users/s_mash/Documents/ratchet/scc-email-template","git":[],"description":"\"\"","language_map":{"Plain Text":0.0,"Pug":0.2942646,"JSON":94.89201,"CSS":0.027760813,"HTML":0.7995114,"JavaScript":0.0,"Python":3.9864528},"project_type":"Node","last_modified":{"secs_since_epoch":1669302387,"nanos_since_epoch":437828063},"documentation_file":null},"/Users/s_mash/Documents/ratchet/tele-bot":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/tele-bot","git":["git@github.com:manishsingh10895/express-ts-starter.git"],"description":null,"language_map":{"TypeScript":93.811325,"JSON":4.9056606,"Markdown":0.0,"PowerShell":0.49056602,"Pug":0.7924528},"project_type":"Node","last_modified":{"secs_since_epoch":1622429616,"nanos_since_epoch":573678970},"documentation_file":"/Users/s_mash/Documents/ratchet/tele-bot/README.md"},"/Users/s_mash/Documents/ratchet/traderepublic_poc":{"name":"\"traderepublic_poc\"","path":"/Users/s_mash/Documents/ratchet/traderepublic_poc","git":[],"description":null,"language_map":{"Markdown":0.0,"Plain Text":0.0,"TypeScript":4.183267,"TSX":58.565735,"SVG":0.99601597,"HTML":3.9840639,"JSON":20.318726,"CSS":11.952191},"project_type":"React","last_modified":{"secs_since_epoch":1661420224,"nanos_since_epoch":184926986},"documentation_file":"/Users/s_mash/Documents/ratchet/traderepublic_poc/README.md"},"/Users/s_mash/Documents/ratchet/volicy_backend":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/volicy_backend","git":["https://github.com/manishsingh10895/volicy_backend.git"],"description":null,"language_map":{"JSON":1.9946519,"CSS":0.158994,"Pug":0.151767,"Dockerfile":0.072270006,"Markdown":0.0,"PowerShell":0.180675,"JavaScript":2.45718,"Shell":0.122859,"TypeScript":94.74597,"YAML":0.115632},"project_type":"Node","last_modified":{"secs_since_epoch":1622429620,"nanos_since_epoch":62768936},"documentation_file":"/Users/s_mash/Documents/ratchet/volicy_backend/README.md"}},"last_indexed":{"secs_since_epoch":1693448207,"nanos_since_epoch":538164000}}owerShell":0.49056602,"Markdown":0.0,"Pug":0.7924528,"TypeScript":93.811325,"JSON":4.9056606},"project_type":"Node","last_modified":{"secs_since_epoch":1622429616,"nanos_since_epoch":573678970},"documentation_file":"/Users/s_mash/Documents/ratchet/tele-bot/README.md"},"/Users/s_mash/Documents/ratchet/traderepublic_poc":{"name":"\"traderepublic_poc\"","path":"/Users/s_mash/Documents/ratchet/traderepublic_poc","git":[],"description":null,"language_map":{"SVG":0.99601597,"HTML":3.9840639,"Markdown":0.0,"Plain Text":0.0,"CSS":11.952191,"JSON":20.318726,"TypeScript":4.183267,"TSX":58.565735},"project_type":"React","last_modified":{"secs_since_epoch":1661420224,"nanos_since_epoch":184926986},"documentation_file":"/Users/s_mash/Documents/ratchet/traderepublic_poc/README.md"},"/Users/s_mash/Documents/ratchet/volicy_backend":{"name":"\"insurance-api\"","path":"/Users/s_mash/Documents/ratchet/volicy_backend","git":["https://github.com/manishsingh10895/volicy_backend.git"],"description":null,"language_map":{"PowerShell":0.180675,"Markdown":0.0,"JSON":1.9946519,"Pug":0.151767,"Shell":0.122859,"YAML":0.115632,"JavaScript":2.45718,"TypeScript":94.74597,"CSS":0.158994,"Dockerfile":0.072270006},"project_type":"Node","last_modified":{"secs_since_epoch":1622429620,"nanos_since_epoch":62768936},"documentation_file":"/Users/s_mash/Documents/ratchet/volicy_backend/README.md"},"/Users/s_mash/Documents/template/DS/programs":{"name":"\"programs\"","path":"/Users/s_mash/Documents/template/DS/programs","git":[],"description":null,"language_map":{"Rust":90.909096,"TOML":9.090909},"project_type":"Rust","last_modified":{"secs_since_epoch":1671783167,"nanos_since_epoch":56102753},"documentation_file":null},"/Users/s_mash/Documents/template/DS/twosum":{"name":"\"twosum\"","path":"/Users/s_mash/Documents/template/DS/twosum","git":[],"description":null,"language_map":{"TOML":13.043478,"Rust":86.95652},"project_type":"Rust","last_modified":{"secs_since_epoch":1671783167,"nanos_since_epoch":133098602},"documentation_file":null},"/Users/s_mash/Documents/template/attack-check":{"name":"\"attack-check\"","path":"/Users/s_mash/Documents/template/attack-check","git":[],"description":"\"\"","language_map":{"JavaScript":72.27603,"JSON":27.72397,"Plain Text":0.0},"project_type":"Node","last_modified":{"secs_since_epoch":1691656232,"nanos_since_epoch":641762808},"documentation_file":null},"/Users/s_mash/Documents/template/bpmonitor":{"name":"bpmonitor","path":"/Users/s_mash/Documents/template/bpmonitor","git":[],"description":"A new Flutter project.","language_map":{"D":0.0072025354,"Dart":2.6289253,"Swift":0.08643042,"Autoconf":0.27369633,"Kotlin":0.028810142,"JSON":73.213776,"XML":18.769806,"Shell":0.079227895,"Plain Text":0.0,"Java":0.32411408,"Xcode Config":0.100835495,"YAML":0.16565831,"C++":0.9507347,"HTML":0.1440507,"Objective-C":0.122443095,"BASH":0.87870926,"Batch":0.47536734,"Markdown":0.0,"C Header":0.10803803,"CMake":1.642178},"project_type":"Flutter","last_modified":{"secs_since_epoch":1693444888,"nanos_since_epoch":799033578},"documentation_file":"/Users/s_mash/Documents/template/bpmonitor/README.md"},"/Users/s_mash/Documents/template/ermetic-clone-ref/aws-inventory/gui":{"name":"\"aws-inventory\"","path":"/Users/s_mash/Documents/template/ermetic-clone-ref/aws-inventory/gui","git":[],"description":null,"language_map":{"SVG":2.2736244,"JavaScript":4.0341043,"CSS":0.08683982,"JSON":93.46333,"HTML":0.14210153},"project_type":"React","last_modified":{"secs_since_epoch":1671783167,"nanos_since_epoch":680724382},"documentation_file":null},"/Users/s_mash/Documents/template/ermetic-clone-ref/aws_policy_expander_minimizer":{"name":"aws_policy_expander_minimizer","path":"/Users/s_mash/Documents/template/ermetic-clone-ref/aws_policy_expander_minimizer","git":["git@github.com:manishsingh10895/aws_policy_expander_minimizer.git","https://github.com/scriptsrc/aws_policy_expander_minimizer"],"description":"A library for expanding and minimizing AWS policies.\n","language_map":{"JSON":0.13299233,"Dart":31.181585,"Markdown":0.0,"YAML":0.09207161,"JavaScript":68.347824,"Shell":0.24552429},"project_type":"Flutter","last_modified":{"secs_since_epoch":1671783168,"nanos_since_epoch":910271764},"documentation_file":"/Users/s_mash/Documents/template/ermetic-clone-ref/aws_policy_expander_minimizer/README.md"},"/Users/s_mash/Documents/template/ermetic-clone-ref/awspx/www":{"name":"\"awspx\"","path":"/Users/s_mash/Documents/template/ermetic-clone-ref/awspx/www","git":[],"description":"\"AWS resource, relationship, and attack path visualisation\"","language_map":{"JavaScript":90.23003,"JSON":0.3215434,"Vue":6.92555,"HTML":0.19787286,"CSS":2.3250062},"project_type":"Node","last_modified":{"secs_since_epoch":1671783168,"nanos_since_epoch":233405471},"documentation_file":null},"/Users/s_mash/Documents/template/express-ts-generator":{"name":"\"express-ts-generator\"","path":"/Users/s_mash/Documents/template/express-ts-generator","git":[],"description":null,"language_map":{"JSON":70.469795,"TOML":4.6979866,"Rust":24.832214},"project_type":"Rust","last_modified":{"secs_since_epoch":1671783168,"nanos_since_epoch":969794273},"documentation_file":null},"/Users/s_mash/Documents/template/socket-react":{"name":"\"socket-react\"","path":"/Users/s_mash/Documents/template/socket-react","git":[],"description":null,"language_map":{"CSS":13.432837,"Plain Text":0.0,"TypeScript":31.64179,"Markdown":0.0,"TSX":15.820895,"JSON":27.164179,"SVG":2.0895522,"HTML":9.850746},"project_type":"React","last_modified":{"secs_since_epoch":1671783171,"nanos_since_epoch":518921256},"documentation_file":"/Users/s_mash/Documents/template/socket-react/README.md"},"/Users/s_mash/Documents/template/timers":{"name":"timers","path":"/Users/s_mash/Documents/template/timers","git":[],"description":"A new Flutter project.","language_map":{"C++":12.559467,"Swift":1.1417698,"Dart":8.087536,"Shell":1.0466223,"BASH":11.607992,"Batch":6.2797337,"Xcode Config":1.3320647,"YAML":1.8078022,"Java":1.0466223,"Markdown":0.0,"XML":5.8991437,"HTML":1.9029496,"C Header":1.4272121,"JSON":19.695528,"Objective-C":0.4757374,"Kotlin":0.3805899,"CMake":21.693624,"Autoconf":3.6156044},"project_type":"Flutter","last_modified":{"secs_since_epoch":1671783172,"nanos_since_epoch":409878254},"documentation_file":"/Users/s_mash/Documents/template/timers/README.md"},"/Users/s_mash/Documents/template/whatsapp-web":{"name":"\"whatsapp-web\"","path":"/Users/s_mash/Documents/template/whatsapp-web","git":["git@github.com:manishsingh10895/whatsapp-reply-emoji.git"],"description":"\"\"","language_map":{"JSON":95.76875,"Markdown":0.0,"Python":2.01722,"Plain Text":0.0,"JavaScript":2.2140222},"project_type":"Node","last_modified":{"secs_since_epoch":1672929791,"nanos_since_epoch":968052772},"documentation_file":"/Users/s_mash/Documents/template/whatsapp-web/README.md"},"/Users/s_mash/Documents/template/workspace-manager/dist/assets/semantic/tasks/config/admin/templates":{"name":"\"semantic\"","path":"/Users/s_mash/Documents/template/workspace-manager/dist/assets/semantic/tasks/config/admin/templates","git":[],"description":"\"Semantic empowers designers and developers by creating a shared vocabulary for UI.\"","language_map":{"Markdown":0.0,"JSON":57.14286,"JavaScript":42.857143},"project_type":"Node","last_modified":{"secs_since_epoch":1671783176,"nanos_since_epoch":747705698},"documentation_file":"/Users/s_mash/Documents/template/workspace-manager/dist/assets/semantic/tasks/config/admin/templates/README.md"}},"last_indexed":{"secs_since_epoch":1693447436,"nanos_since_epoch":751368000}}"nanos_since_epoch": 996976852
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/mobileapp/rainbow/ios/Internals/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/practive/blzd-contracts": {
+            "name": "\"blizzard\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/practive/blzd-contracts",
+            "git": [
+                "https://github.com/blzd-dev/blzd-contracts.git"
+            ],
+            "description": null,
+            "language_map": {
+                "JSON": 1.1565151,
+                "Solidity": 98.84348,
+                "Markdown": 0.0
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429357,
+                "nanos_since_epoch": 266963958
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/practive/blzd-contracts/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/practive/blzd-frontend": {
+            "name": "\"blzd-frontend\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/practive/blzd-frontend",
+            "git": [
+                "https://github.com/blzd-dev/blzd-frontend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "Plain Text": 0.0,
+                "JSON": 44.914337,
+                "HTML": 0.15019947,
+                "JavaScript": 0.8401783,
+                "TSX": 36.296646,
+                "TOML": 0.0140812015,
+                "SVG": 0.15489322,
+                "Markdown": 0.0,
+                "TypeScript": 17.629665
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1622429373,
+                "nanos_since_epoch": 232847213
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/practive/blzd-frontend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/practive/pancake-farm": {
+            "name": "\"PancakeSwap\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/practive/pancake-farm",
+            "git": [
+                "https://github.com/pancakeswap/pancake-farm.git"
+            ],
+            "description": null,
+            "language_map": {
+                "JavaScript": 38.50156,
+                "Markdown": 0.0,
+                "Solidity": 59.885536,
+                "JSON": 1.6129031
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429384,
+                "nanos_since_epoch": 571544647
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/practive/pancake-farm/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/practive/pancake-frontend": {
+            "name": "\"pancake-frontend\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/practive/pancake-frontend",
+            "git": [
+                "https://github.com/pancakeswap/pancake-frontend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "TypeScript": 32.343987,
+                "TSX": 45.499397,
+                "TOML": 0.007872776,
+                "HTML": 0.11284312,
+                "Plain Text": 0.0,
+                "Markdown": 0.0,
+                "JSON": 20.56369,
+                "SVG": 1.440718,
+                "JSX": 0.031491105
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1630647916,
+                "nanos_since_epoch": 708768844
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/practive/pancake-frontend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/prototype/core-contracts": {
+            "name": "\"@pancakeswap-libs/pancake-swap-core\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/prototype/core-contracts",
+            "git": [
+                "git@github.com:manishsingh10895/kesef-core.git",
+                "https://github.com/pancakeswap/pancake-swap-core.git"
+            ],
+            "description": "\"🎛 Core contracts for the pancake protocol\"",
+            "language_map": {
+                "JSON": 5.658709,
+                "TypeScript": 48.010612,
+                "Solidity": 41.99823,
+                "JavaScript": 4.3324494,
+                "Markdown": 0.0
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429410,
+                "nanos_since_epoch": 449151992
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/prototype/core-contracts/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/prototype/frontend": {
+            "name": "\"pancake-frontend\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/prototype/frontend",
+            "git": [
+                "https://github.com/pancakeswap/pancake-frontend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "TypeScript": 21.549385,
+                "TOML": 0.005220297,
+                "SVG": 1.3172548,
+                "Markdown": 0.0,
+                "HTML": 0.07482425,
+                "Plain Text": 0.0,
+                "JSON": 46.707733,
+                "TSX": 30.324703,
+                "JSX": 0.020881187
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1622429426,
+                "nanos_since_epoch": 501245498
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/prototype/frontend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-core": {
+            "name": "\"PancakeSwap\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-core",
+            "git": [
+                "git@github.com:manishsingh10895/kesef-farms-contracts.git",
+                "https://github.com/pancakeswap/pancake-farm.git"
+            ],
+            "description": null,
+            "language_map": {
+                "JavaScript": 38.485928,
+                "Markdown": 0.0,
+                "Solidity": 60.24574,
+                "JSON": 1.2683313
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429440,
+                "nanos_since_epoch": 171455383
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-core/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-periphery": {
+            "name": "\"pancakeswap-peripheral\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-periphery",
+            "git": [
+                "git@github.com:manishsingh10895/kesef-periphery.git",
+                "https://github.com/pancakeswap/pancake-swap-periphery.git"
+            ],
+            "description": "\"🎚 Peripheral smart contracts for interacting with pancake\"",
+            "language_map": {
+                "TypeScript": 1.7119793,
+                "JSON": 96.29352,
+                "Markdown": 0.0,
+                "JavaScript": 0.06054151,
+                "Solidity": 1.9339648
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429445,
+                "nanos_since_epoch": 245248794
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/prototype/kesef-periphery/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/rainbow-bridge-frontend": {
+            "name": "\"rainbow-bridge-frontend\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/rainbow-bridge-frontend",
+            "git": [
+                "https://github.com/aurora-is-near/rainbow-bridge-frontend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "SVG": 7.7677517,
+                "XML": 0.07846214,
+                "JavaScript": 15.103963,
+                "CSS": 26.245584,
+                "HTML": 46.802666,
+                "Markdown": 0.0,
+                "JSON": 4.0015693
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1623137989,
+                "nanos_since_epoch": 185581207
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/rainbow-bridge-frontend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap": {
+            "name": "\"@sushiswap/core\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap",
+            "git": [
+                "https://github.com/sushiswap/sushiswap.git"
+            ],
+            "description": "\"Core contracts for the SushiSwap protocol\"",
+            "language_map": {
+                "RPM Specfile": 0.08368642,
+                "Shell": 0.0013178964,
+                "Plain Text": 0.0,
+                "Markdown": 0.0,
+                "Solidity": 0.98095423,
+                "JavaScript": 0.08764011,
+                "JSON": 98.56964,
+                "TypeScript": 0.27675825
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429448,
+                "nanos_since_epoch": 731369018
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-interface": {
+            "name": "\"@sushiswap/interface\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-interface",
+            "git": [
+                "https://github.com/sushiswap/sushiswap-interface.git"
+            ],
+            "description": "\"SushiSwap Interface\"",
+            "language_map": {
+                "JavaScript": 3.2037451,
+                "JSON": 18.462845,
+                "CSS": 0.087207966,
+                "TSX": 48.40042,
+                "TypeScript": 29.171064,
+                "Markdown": 0.0,
+                "SVG": 0.61045575,
+                "HTML": 0.0642585
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429478,
+                "nanos_since_epoch": 259740829
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-interface/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend": {
+            "name": "\"yam\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend",
+            "git": [
+                "https://github.com/sushiswap/sushiswap-legacy-frontend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "Markdown": 0.0,
+                "JSON": 24.81401,
+                "TSX": 48.06262,
+                "JavaScript": 15.964042,
+                "Plain Text": 0.0,
+                "SVG": 0.29448235,
+                "CSS": 0.18598884,
+                "HTML": 0.4649721,
+                "TypeScript": 10.213887
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1622429495,
+                "nanos_since_epoch": 165714263
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend/workers-site": {
+            "name": "\"worker\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/sushiswap/sushiswap-legacy-frontend/workers-site",
+            "git": [],
+            "description": "\"A template for kick starting a Cloudflare Workers project\"",
+            "language_map": {
+                "JavaScript": 79.545456,
+                "JSON": 20.454546
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1619365031,
+                "nanos_since_epoch": 806850433
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/uniswap/core": {
+            "name": "\"core\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/uniswap/core",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "Solidity": 0.6245519,
+                "JavaScript": 0.055148073,
+                "JSON": 99.3203
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429495,
+                "nanos_since_epoch": 335716247
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/uniswap/migrator": {
+            "name": "\"migrator\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/uniswap/migrator",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "Solidity": 0.32230675,
+                "JavaScript": 0.060649116,
+                "JSON": 99.61704
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429495,
+                "nanos_since_epoch": 406719207
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/uniswap/periphery": {
+            "name": "periphery",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/uniswap/periphery",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "Solidity": 0.6513286,
+                "JSON": 99.33699,
+                "JavaScript": 0.011675092,
+                "Markdown": 0.0
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429495,
+                "nanos_since_epoch": 438720703
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-interface": {
+            "name": "\"@uniswap/interface\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-interface",
+            "git": [
+                "https://github.com/Uniswap/uniswap-interface.git"
+            ],
+            "description": "\"Uniswap Interface\"",
+            "language_map": {
+                "SVG": 0.7253999,
+                "TSX": 51.847958,
+                "JavaScript": 0.26114395,
+                "TypeScript": 28.664175,
+                "JSON": 18.399767,
+                "Markdown": 0.0,
+                "HTML": 0.10155597
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429521,
+                "nanos_since_epoch": 465070724
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-interface/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-core": {
+            "name": "\"@uniswap/v2-core\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-core",
+            "git": [
+                "https://github.com/Uniswap/uniswap-v2-core.git"
+            ],
+            "description": "\"🎛 Core contracts for the UniswapV2 protocol\"",
+            "language_map": {
+                "Solidity": 41.60942,
+                "TypeScript": 52.79686,
+                "JSON": 5.5937195,
+                "Markdown": 0.0
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429528,
+                "nanos_since_epoch": 329566955
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-core/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-periphery": {
+            "name": "\"@uniswap/v2-periphery\"",
+            "path": "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-periphery",
+            "git": [
+                "https://github.com/Uniswap/uniswap-v2-periphery.git"
+            ],
+            "description": "\"🎚 Peripheral smart contracts for interacting with Uniswap V2\"",
+            "language_map": {
+                "JSON": 13.743658,
+                "Markdown": 0.0,
+                "Solidity": 37.63512,
+                "TypeScript": 48.621223
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429534,
+                "nanos_since_epoch": 408235549
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/kesef/uniswap/uniswap-v2-periphery/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/life-fundo/admin-fe": {
+            "name": "\"crm\"",
+            "path": "/Users/s_mash/Documents/ratchet/life-fundo/admin-fe",
+            "git": [
+                "git@github.com:manishsingh10895/crm-frontend.git",
+                "git@github.com:manishsingh10895/life-fundo-admin-fe.git"
+            ],
+            "description": null,
+            "language_map": {
+                "HTML": 0.041553713,
+                "SVG": 50.238438,
+                "JavaScript": 0.581752,
+                "Plain Text": 0.0,
+                "TSX": 39.828243,
+                "TypeScript": 6.3319945,
+                "LESS": 0.10685241,
+                "PowerShell": 0.0019787482,
+                "JSON": 0.55998576,
+                "Shell": 0.0019787482,
+                "Markdown": 0.0,
+                "Sass": 2.146942,
+                "CSS": 0.16027862
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1622429551,
+                "nanos_since_epoch": 239206314
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/life-fundo/admin-fe/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/life-fundo/backend": {
+            "name": "\"life-fundo-api\"",
+            "path": "/Users/s_mash/Documents/ratchet/life-fundo/backend",
+            "git": [
+                "git@github.com:manishsingh10895/insurance_backend.git",
+                "git@github.com:manishsingh10895/life-fundo-back.git"
+            ],
+            "description": null,
+            "language_map": {
+                "Dockerfile": 0.0024662737,
+                "JSON": 4.303401,
+                "JavaScript": 0.083853304,
+                "Markdown": 0.0,
+                "CSS": 0.010604977,
+                "Shell": 0.0051791747,
+                "TypeScript": 95.57304,
+                "YAML": 0.003946038,
+                "Pug": 0.008138703,
+                "PowerShell": 0.00937184
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429555,
+                "nanos_since_epoch": 409797668
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/life-fundo/backend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/life-fundo/ravepay-nodejs": {
+            "name": "\"flutterwave-node\"",
+            "path": "/Users/s_mash/Documents/ratchet/life-fundo/ravepay-nodejs",
+            "git": [
+                "https://github.com/Flutterwave/ravepay-nodejs.git"
+            ],
+            "description": "\"Official Node library for Rave by Flutterwave\"",
+            "language_map": {
+                "JavaScript": 83.17867,
+                "JSON": 15.932873,
+                "Markdown": 0.0,
+                "Pug": 0.88845015
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1602747584,
+                "nanos_since_epoch": 987733840
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/life-fundo/ravepay-nodejs/Readme.md"
+        },
+        "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-backend": {
+            "name": "\"api\"",
+            "path": "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-backend",
+            "git": [
+                "git@github.com:karankohli13/noften-marketplace-backend.git"
+            ],
+            "description": "\"\"",
+            "language_map": {
+                "JavaScript": 99.033165,
+                "JSON": 0.9218662,
+                "PowerShell": 0.044969086
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1661420278,
+                "nanos_since_epoch": 54222106
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts": {
+            "name": "\"noften-marketplace-contracts\"",
+            "path": "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts",
+            "git": [
+                "git@github.com:karankohli13/noften-marketplace-contracts.git"
+            ],
+            "description": "\"\"",
+            "language_map": {
+                "TypeScript": 3.5603218,
+                "JSON": 87.4799,
+                "Solidity": 8.959785,
+                "Markdown": 0.0
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1661420278,
+                "nanos_since_epoch": 99849700
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-contracts/Readme.md"
+        },
+        "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend": {
+            "name": "\"noften\"",
+            "path": "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend",
+            "git": [
+                "git@github.com:karankohli13/noften-marketplace-frontend.git"
+            ],
+            "description": "\"Noften\"",
+            "language_map": {
+                "JavaScript": 45.56652,
+                "Markdown": 0.0,
+                "Sass": 4.43348,
+                "CSS": 42.71591,
+                "SVG": 3.3296115,
+                "JSON": 3.5132897,
+                "HTML": 0.08823741,
+                "JSX": 0.35294965,
+                "Plain Text": 0.0
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1661420278,
+                "nanos_since_epoch": 100847244
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/marketplace-noften/noften-marketplace-frontend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/noften": {
+            "name": "\"noften\"",
+            "path": "/Users/s_mash/Documents/ratchet/noften",
+            "git": [
+                "git@github.com:karankohli13/noften.git"
+            ],
+            "description": "\"\"",
+            "language_map": {
+                "CSS": 26.754648,
+                "TSX": 6.857337,
+                "JSON": 0.7383519,
+                "HTML": 11.143172,
+                "PowerShell": 0.0042434013,
+                "SVG": 0.39039293,
+                "JavaScript": 47.16541,
+                "Sass": 2.1429176,
+                "TypeScript": 1.4936773,
+                "Dockerfile": 0.042434018,
+                "Markdown": 0.0,
+                "YAML": 3.2674193
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1661420223,
+                "nanos_since_epoch": 648601531
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/noften/noften-comps": {
+            "name": "\"noften-comps\"",
+            "path": "/Users/s_mash/Documents/ratchet/noften/noften-comps",
+            "git": [],
+            "description": "\"webcomponent for noften\"",
+            "language_map": {
+                "HTML": 0.49317148,
+                "Markdown": 0.0,
+                "TypeScript": 13.353565,
+                "JSON": 5.08346,
+                "JavaScript": 0.15174507,
+                "Sass": 19.157814,
+                "CSS": 0.4552352,
+                "TSX": 61.30501
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1661420224,
+                "nanos_since_epoch": 254705429
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/noften/noften-comps/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/noften-backend": {
+            "name": "\"noften-api\"",
+            "path": "/Users/s_mash/Documents/ratchet/noften-backend",
+            "git": [
+                "git@github.com:karankohli13/noften-backend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "JavaScript": 1.3953724,
+                "Shell": 0.050740816,
+                "JSON": 82.134155,
+                "Dockerfile": 0.06088898,
+                "PowerShell": 0.18266693,
+                "Markdown": 0.0,
+                "TypeScript": 16.069616,
+                "Pug": 0.106555715
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1661420226,
+                "nanos_since_epoch": 561571121
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/noften-backend/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/openalexa-backend": {
+            "name": "\"openalexa-backend\"",
+            "path": "/Users/s_mash/Documents/ratchet/openalexa-backend",
+            "git": [
+                "git@github.com:openalexa/openalexa-backend.git"
+            ],
+            "description": "\"\"",
+            "language_map": {
+                "JavaScript": 89.689964,
+                "JSON": 0.70415133,
+                "Handlebars": 9.6058855
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1630647990,
+                "nanos_since_epoch": 314065933
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/quick-trade": {
+            "name": "\"quick-trade\"",
+            "path": "/Users/s_mash/Documents/ratchet/quick-trade",
+            "git": [],
+            "description": "\"\"",
+            "language_map": {
+                "TypeScript": 5.9526544,
+                "JSON": 94.04734
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1683010120,
+                "nanos_since_epoch": 519967954
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/resolver": {
+            "name": "\"resolver\"",
+            "path": "/Users/s_mash/Documents/ratchet/resolver",
+            "git": [
+                "git@github.com:manishsingh10895/resolver.git"
+            ],
+            "description": "\"resolve hostnames\"",
+            "language_map": {
+                "Plain Text": 0.0,
+                "Batch": 0.9433962,
+                "Markdown": 0.0,
+                "TypeScript": 68.86792,
+                "JSON": 30.188679
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429613,
+                "nanos_since_epoch": 330633163
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/resolver/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/rust-aws-manager": {
+            "name": "\"rust-aws-manager\"",
+            "path": "/Users/s_mash/Documents/ratchet/rust-aws-manager",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "Rust": 65.51724,
+                "TOML": 34.482758
+            },
+            "project_type": "Rust",
+            "last_modified": {
+                "secs_since_epoch": 1661418473,
+                "nanos_since_epoch": 468605041
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/scc-email-template": {
+            "name": "\"newsletter\"",
+            "path": "/Users/s_mash/Documents/ratchet/scc-email-template",
+            "git": [],
+            "description": "\"\"",
+            "language_map": {
+                "CSS": 0.027760813,
+                "Pug": 0.2942646,
+                "HTML": 0.7995114,
+                "JavaScript": 0.0,
+                "Plain Text": 0.0,
+                "JSON": 94.89201,
+                "Python": 3.9864528
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1669302387,
+                "nanos_since_epoch": 437828063
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/sec-dashboard/.next": {
+            "name": ".next",
+            "path": "/Users/s_mash/Documents/ratchet/sec-dashboard/.next",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "JSON": 0.37389,
+                "JavaScript": 98.06824,
+                "CSS": 0.17136626,
+                "TypeScript": 1.3865088
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1692973679,
+                "nanos_since_epoch": 652940481
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/sec-dashboard/.next/types": {
+            "name": "types",
+            "path": "/Users/s_mash/Documents/ratchet/sec-dashboard/.next/types",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "JSON": 0.28011206,
+                "TypeScript": 99.71989
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1692970317,
+                "nanos_since_epoch": 918699243
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/sec-dashboard-copy/.next": {
+            "name": ".next",
+            "path": "/Users/s_mash/Documents/ratchet/sec-dashboard-copy/.next",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "JSON": 0.65175974,
+                "JavaScript": 99.34824
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1692912517,
+                "nanos_since_epoch": 244697383
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/ratchet/tele-bot": {
+            "name": "\"insurance-api\"",
+            "path": "/Users/s_mash/Documents/ratchet/tele-bot",
+            "git": [
+                "git@github.com:manishsingh10895/express-ts-starter.git"
+            ],
+            "description": null,
+            "language_map": {
+                "Markdown": 0.0,
+                "Pug": 0.7924528,
+                "PowerShell": 0.49056602,
+                "TypeScript": 93.811325,
+                "JSON": 4.9056606
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429616,
+                "nanos_since_epoch": 573678970
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/tele-bot/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/traderepublic_poc": {
+            "name": "\"traderepublic_poc\"",
+            "path": "/Users/s_mash/Documents/ratchet/traderepublic_poc",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "TSX": 58.565735,
+                "TypeScript": 4.183267,
+                "CSS": 11.952191,
+                "JSON": 20.318726,
+                "Markdown": 0.0,
+                "Plain Text": 0.0,
+                "SVG": 0.99601597,
+                "HTML": 3.9840639
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1661420224,
+                "nanos_since_epoch": 184926986
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/traderepublic_poc/README.md"
+        },
+        "/Users/s_mash/Documents/ratchet/volicy_backend": {
+            "name": "\"insurance-api\"",
+            "path": "/Users/s_mash/Documents/ratchet/volicy_backend",
+            "git": [
+                "https://github.com/manishsingh10895/volicy_backend.git"
+            ],
+            "description": null,
+            "language_map": {
+                "PowerShell": 0.180675,
+                "CSS": 0.158994,
+                "Dockerfile": 0.072270006,
+                "JavaScript": 2.45718,
+                "TypeScript": 94.74597,
+                "Markdown": 0.0,
+                "Pug": 0.151767,
+                "YAML": 0.115632,
+                "JSON": 1.9946519,
+                "Shell": 0.122859
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1622429620,
+                "nanos_since_epoch": 62768936
+            },
+            "documentation_file": "/Users/s_mash/Documents/ratchet/volicy_backend/README.md"
+        },
+        "/Users/s_mash/Documents/template/DS/programs": {
+            "name": "\"programs\"",
+            "path": "/Users/s_mash/Documents/template/DS/programs",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "TOML": 9.090909,
+                "Rust": 90.909096
+            },
+            "project_type": "Rust",
+            "last_modified": {
+                "secs_since_epoch": 1671783167,
+                "nanos_since_epoch": 56102753
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/template/DS/twosum": {
+            "name": "\"twosum\"",
+            "path": "/Users/s_mash/Documents/template/DS/twosum",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "TOML": 13.043478,
+                "Rust": 86.95652
+            },
+            "project_type": "Rust",
+            "last_modified": {
+                "secs_since_epoch": 1671783167,
+                "nanos_since_epoch": 133098602
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/template/attack-check": {
+            "name": "\"attack-check\"",
+            "path": "/Users/s_mash/Documents/template/attack-check",
+            "git": [],
+            "description": "\"\"",
+            "language_map": {
+                "Plain Text": 0.0,
+                "JSON": 27.72397,
+                "JavaScript": 72.27603
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1691656232,
+                "nanos_since_epoch": 641762808
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/template/bpmonitor": {
+            "name": "bpmonitor",
+            "path": "/Users/s_mash/Documents/template/bpmonitor",
+            "git": [],
+            "description": "A new Flutter project.",
+            "language_map": {
+                "BASH": 0.87870926,
+                "Shell": 0.079227895,
+                "YAML": 0.16565831,
+                "C++": 0.9507347,
+                "C Header": 0.10803803,
+                "JSON": 73.213776,
+                "Swift": 0.08643042,
+                "Plain Text": 0.0,
+                "Batch": 0.47536734,
+                "Dart": 2.6289253,
+                "Java": 0.32411408,
+                "Autoconf": 0.27369633,
+                "Xcode Config": 0.100835495,
+                "XML": 18.769806,
+                "Markdown": 0.0,
+                "Objective-C": 0.122443095,
+                "HTML": 0.1440507,
+                "D": 0.0072025354,
+                "Kotlin": 0.028810142,
+                "CMake": 1.642178
+            },
+            "project_type": "Flutter",
+            "last_modified": {
+                "secs_since_epoch": 1693444888,
+                "nanos_since_epoch": 799033578
+            },
+            "documentation_file": "/Users/s_mash/Documents/template/bpmonitor/README.md"
+        },
+        "/Users/s_mash/Documents/template/ermetic-clone-ref/aws-inventory/gui": {
+            "name": "\"aws-inventory\"",
+            "path": "/Users/s_mash/Documents/template/ermetic-clone-ref/aws-inventory/gui",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "CSS": 0.08683982,
+                "JSON": 93.46333,
+                "JavaScript": 4.0341043,
+                "SVG": 2.2736244,
+                "HTML": 0.14210153
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1671783167,
+                "nanos_since_epoch": 680724382
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/template/ermetic-clone-ref/aws_policy_expander_minimizer": {
+            "name": "aws_policy_expander_minimizer",
+            "path": "/Users/s_mash/Documents/template/ermetic-clone-ref/aws_policy_expander_minimizer",
+            "git": [
+                "git@github.com:manishsingh10895/aws_policy_expander_minimizer.git",
+                "https://github.com/scriptsrc/aws_policy_expander_minimizer"
+            ],
+            "description": "A library for expanding and minimizing AWS policies.\n",
+            "language_map": {
+                "JSON": 0.13299233,
+                "Shell": 0.24552429,
+                "Dart": 31.181585,
+                "Markdown": 0.0,
+                "JavaScript": 68.347824,
+                "YAML": 0.09207161
+            },
+            "project_type": "Flutter",
+            "last_modified": {
+                "secs_since_epoch": 1671783168,
+                "nanos_since_epoch": 910271764
+            },
+            "documentation_file": "/Users/s_mash/Documents/template/ermetic-clone-ref/aws_policy_expander_minimizer/README.md"
+        },
+        "/Users/s_mash/Documents/template/ermetic-clone-ref/awspx/www": {
+            "name": "\"awspx\"",
+            "path": "/Users/s_mash/Documents/template/ermetic-clone-ref/awspx/www",
+            "git": [],
+            "description": "\"AWS resource, relationship, and attack path visualisation\"",
+            "language_map": {
+                "CSS": 2.3250062,
+                "JavaScript": 90.23003,
+                "JSON": 0.3215434,
+                "Vue": 6.92555,
+                "HTML": 0.19787286
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1671783168,
+                "nanos_since_epoch": 233405471
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/template/express-ts-generator": {
+            "name": "\"express-ts-generator\"",
+            "path": "/Users/s_mash/Documents/template/express-ts-generator",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "TOML": 4.6979866,
+                "JSON": 70.469795,
+                "Rust": 24.832214
+            },
+            "project_type": "Rust",
+            "last_modified": {
+                "secs_since_epoch": 1671783168,
+                "nanos_since_epoch": 969794273
+            },
+            "documentation_file": null
+        },
+        "/Users/s_mash/Documents/template/socket-react": {
+            "name": "\"socket-react\"",
+            "path": "/Users/s_mash/Documents/template/socket-react",
+            "git": [],
+            "description": null,
+            "language_map": {
+                "TypeScript": 31.64179,
+                "TSX": 15.820895,
+                "JSON": 27.164179,
+                "HTML": 9.850746,
+                "Markdown": 0.0,
+                "Plain Text": 0.0,
+                "CSS": 13.432837,
+                "SVG": 2.0895522
+            },
+            "project_type": "React",
+            "last_modified": {
+                "secs_since_epoch": 1671783171,
+                "nanos_since_epoch": 518921256
+            },
+            "documentation_file": "/Users/s_mash/Documents/template/socket-react/README.md"
+        },
+        "/Users/s_mash/Documents/template/timers": {
+            "name": "timers",
+            "path": "/Users/s_mash/Documents/template/timers",
+            "git": [],
+            "description": "A new Flutter project.",
+            "language_map": {
+                "Swift": 1.1417698,
+                "YAML": 1.8078022,
+                "Autoconf": 3.6156044,
+                "XML": 5.8991437,
+                "JSON": 19.695528,
+                "Dart": 8.087536,
+                "Shell": 1.0466223,
+                "C++": 12.559467,
+                "CMake": 21.693624,
+                "Java": 1.0466223,
+                "HTML": 1.9029496,
+                "C Header": 1.4272121,
+                "BASH": 11.607992,
+                "Kotlin": 0.3805899,
+                "Xcode Config": 1.3320647,
+                "Objective-C": 0.4757374,
+                "Batch": 6.2797337,
+                "Markdown": 0.0
+            },
+            "project_type": "Flutter",
+            "last_modified": {
+                "secs_since_epoch": 1671783172,
+                "nanos_since_epoch": 409878254
+            },
+            "documentation_file": "/Users/s_mash/Documents/template/timers/README.md"
+        },
+        "/Users/s_mash/Documents/template/whatsapp-web": {
+            "name": "\"whatsapp-web\"",
+            "path": "/Users/s_mash/Documents/template/whatsapp-web",
+            "git": [
+                "git@github.com:manishsingh10895/whatsapp-reply-emoji.git"
+            ],
+            "description": "\"\"",
+            "language_map": {
+                "JavaScript": 2.2140222,
+                "JSON": 95.76875,
+                "Python": 2.01722,
+                "Markdown": 0.0,
+                "Plain Text": 0.0
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1672929791,
+                "nanos_since_epoch": 968052772
+            },
+            "documentation_file": "/Users/s_mash/Documents/template/whatsapp-web/README.md"
+        },
+        "/Users/s_mash/Documents/template/workspace-manager/dist/assets/semantic/tasks/config/admin/templates": {
+            "name": "\"semantic\"",
+            "path": "/Users/s_mash/Documents/template/workspace-manager/dist/assets/semantic/tasks/config/admin/templates",
+            "git": [],
+            "description": "\"Semantic empowers designers and developers by creating a shared vocabulary for UI.\"",
+            "language_map": {
+                "JavaScript": 42.857143,
+                "Markdown": 0.0,
+                "JSON": 57.14286
+            },
+            "project_type": "Node",
+            "last_modified": {
+                "secs_since_epoch": 1671783176,
+                "nanos_since_epoch": 747705698
+            },
+            "documentation_file": "/Users/s_mash/Documents/template/workspace-manager/dist/assets/semantic/tasks/config/admin/templates/README.md"
+        }
+    },
+    "last_indexed": {
+        "secs_since_epoch": 1693446957,
+        "nanos_since_epoch": 254917000
+    }
+}

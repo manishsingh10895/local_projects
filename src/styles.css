@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.view-container {
+  min-height: 100vh;
+}
+
+:root {
+  --primary-color: #5c6bc0;
+  --secondary-color: #d81b60;
+  --tertiary-color: #4fc3f7;
+  --text-color: #bababa;
+  --text-color-alt: white;
+}
