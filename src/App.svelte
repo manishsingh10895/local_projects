@@ -7,15 +7,28 @@
   import Header from "./lib/Header.svelte";
   import ProjectsView from "./lib/ProjectsView.svelte";
   import { invoke } from "@tauri-apps/api/tauri";
+  import { writable } from "svelte/store";
+  import type { AppContext } from "./stores/AppContext";
+  import type { Config } from "./types";
 
-  let projects;
+  const config = writable<Config>({
+    project_dirs : []
+  });
+
+  const projects = writable([]);
+
+  setContext<AppContext>('appData', {
+    config,
+    projects
+  })
+
+  const appData = getContext<AppContext>('appData');
 
   onMount(() => {
     invoke('get_projects')
       .then((projects) => {
         console.log(projects);
-        projects = projects;
-        setContext('projects', projects);
+        appData.projects.set(projects as Array<any>);
       })
       .catch(err => {
         console.error(err);
@@ -24,8 +37,6 @@
 </script>
 
 <main class="container">
-  <h4>Container</h4>
-  <!-- {projects.len} -->
   <Router>
     <div class="header-container">
       <Header />
@@ -50,7 +61,7 @@
 <style lang="scss">
   .container {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 150px 1fr;
     grid-template-rows: 50px 1fr;
     height: 100vh;
     grid-template-areas:
@@ -63,5 +74,8 @@
   }
   .content {
     grid-area: content;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 </style>

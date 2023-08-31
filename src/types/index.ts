@@ -2,7 +2,7 @@ export type Config = {
   project_dirs: String[];
 };
 
-export type Project = {
+export interface IProject  {
   name: String;
   path: String;
   git: Array<String>;

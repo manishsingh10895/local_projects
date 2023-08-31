@@ -19,8 +19,6 @@ impl Config {
     /// sets `project_dirs` to empty array
     /// if `config file` `lp.config.json` is not found
     pub fn load() -> Self {
-        let mut dirs = Vec::new();
-
         let path = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
         let mut path = PathBuf::from(path);
         path.push("lp.config.json");
@@ -28,7 +26,7 @@ impl Config {
         let file = std::fs::File::open(path).expect("Config File should be opened");
         let config: Config = serde_json::from_reader(file).expect("Deserialized Config from file");
 
-        dirs = config.project_dirs;
+        let dirs = config.project_dirs;
 
         Config { project_dirs: dirs }
     }

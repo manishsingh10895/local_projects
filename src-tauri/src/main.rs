@@ -46,13 +46,28 @@ fn get_projects(state: tauri::State<AppState>) -> Vec<Project> {
     return [].to_vec();
 }
 
+#[tauri::command]
+fn reload_index(state: tauri::State<AppState>) {
+    let new_index = indexer::Index::load_or_default();
+
+    let mut index = state.index.lock().unwrap();
+
+    *index = new_index;
+
+    println!("Index Len {}", index.projects().len());
+
+    println!("INDEX RELOADED");
+}
+
 // Command to get projects
 
 fn main() {
     dotenv::dotenv().ok();
 
     let config = Config::load();
-    std::thread::spawn(move || file_handler::initiate_search(&config));
+    {
+        std::thread::spawn(move || file_handler::initiate_search(&config));
+    }
     tauri::Builder::default()
         .manage(AppState {
             config: Arc::new(Mutex::new(Config::load())),
@@ -62,7 +77,8 @@ fn main() {
             greet,
             config_add_dir,
             get_config,
-            get_projects
+            get_projects,
+            reload_index
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

@@ -1,6 +1,7 @@
 use std::{
     collections::BTreeMap,
     fs::{File, OpenOptions},
+    io::Write,
     path::PathBuf,
     time::SystemTime,
 };
@@ -25,6 +26,38 @@ impl Default for Index {
 }
 
 impl Index {
+    pub fn load() -> Result<Index, LpError> {
+        let lp_home = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
+        let mut home_path = PathBuf::from(lp_home);
+        home_path.push("index.json");
+
+        let exists = home_path.try_exists().unwrap_or(false);
+
+        if !exists {
+            return Err(LpError::Error(String::from("Not Found")));
+        } else {
+            let canonical = home_path.canonicalize().unwrap();
+
+            match std::fs::File::open(&home_path) {
+                Ok(file) => match serde_json::from_reader(file) {
+                    Ok(json) => {
+                        println!("Index Loaded From File {home_path:?}");
+                        return Ok(json);
+                    }
+                    Err(err) => {
+                        eprintln!("ERROR while parsing json");
+                        eprintln!("{err}");
+                        return Err(LpError::SerdeError(err));
+                    }
+                },
+                Err(err) => {
+                    eprintln!("ERROR: while opening file {canonical:?}");
+                    return Err(LpError::IoError(err));
+                }
+            }
+        }
+    }
+
     pub fn load_or_default() -> Index {
         let lp_home = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
         let mut home_path = PathBuf::from(lp_home);
@@ -33,16 +66,27 @@ impl Index {
         let exists = home_path.try_exists().unwrap_or(false);
 
         if exists {
-            if let Ok(file) = std::fs::File::open(home_path) {
-                if let Ok(json) = serde_json::from_reader(file) {
-                    return json;
-                } else {
+            let canonical = home_path.canonicalize().unwrap();
+            match std::fs::File::open(&home_path) {
+                Ok(file) => match serde_json::from_reader(file) {
+                    Ok(json) => {
+                        println!("Index Loaded From File {home_path:?}");
+                        return json;
+                    }
+                    Err(err) => {
+                        eprintln!("ERROR while parsing json");
+                        eprintln!("{err}");
+                        return Index::default();
+                    }
+                },
+                Err(err) => {
+                    eprintln!("ERROR: while opening file {canonical:?}");
+                    eprintln!("{err}");
                     return Index::default();
                 }
-            } else {
-                return Index::default();
             }
         } else {
+            eprintln!("ERROR: index.json file not found at {home_path:?}");
             return Index::default();
         }
     }
@@ -54,15 +98,25 @@ impl Index {
         let mut home_path = PathBuf::from(lp_home);
         home_path.push("index.json");
 
-        let file: Result<File, std::io::Error> =
-            OpenOptions::new().create(true).write(true).open(home_path);
+        let file: Result<File, std::io::Error> = OpenOptions::new()
+            .create(true)
+            .write(true)
+            .truncate(true)
+            .open(&home_path);
 
         self.last_indexed = SystemTime::now();
 
-        if let Ok(file) = file {
-            serde_json::to_writer(file, &self)?;
-        } else {
-            return Err(file.unwrap_err().into());
+        match file {
+            Ok(mut file) => {
+                serde_json::to_writer(&file, &self)?;
+                let canonical = home_path.canonicalize().unwrap();
+                println!("Index saved to {canonical:?}");
+                let _ = file.flush();
+            }
+            Err(err) => {
+                println!("ERROR: {err}");
+                return Err(LpError::IoError(err));
+            }
         }
 
         Ok(())
@@ -102,4 +156,14 @@ impl Index {
     }
 }
 
-pub struct Indexer {}
+#[cfg(test)]
+mod indexer_tests {
+    #[test]
+    fn it_should_load_index() {
+        let index = super::Index::load();
+
+        assert!(index.is_ok());
+
+        println!("Index Len -> {}", index.unwrap().projects().len());
+    }
+}

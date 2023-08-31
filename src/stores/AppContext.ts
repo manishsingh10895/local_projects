@@ -1,14 +1,8 @@
 import { writable, type Writable } from "svelte/store";
-import type { Config, Project } from "../types";
+import type { Config, IProject } from "../types";
 import { getContext, setContext } from "svelte";
 
-export type AppData = {
-  config: Config;
-  projects: Array<Project>;
+export type AppContext = {
+  config: Writable<Config>;
+  projects: Writable<Array<IProject>>;
 };
-
-export function setConfig(config: any) {
-  setContext("app", {
-    config,
-  });
-}

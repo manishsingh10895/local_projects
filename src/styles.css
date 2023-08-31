@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('/fonts/Raleway-Light.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url("/fonts/Raleway-Medium.ttf");
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +17,7 @@
 body {
   font-size: 1.6rem;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -21,4 +34,19 @@ a {
   --tertiary-color: #4fc3f7;
   --text-color: #bababa;
   --text-color-alt: white;
+}
+
+.lp_button {
+  border-radius: 16px;
+  padding: 8px 12px;
+  box-shadow: 0 0 15px rgba(20, 20, 20, 0.4);
+  color: white;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: var(--primary-color);
+}
+
+.lp_button.secondary {
+  background-color: var(--secondary-color);
 }

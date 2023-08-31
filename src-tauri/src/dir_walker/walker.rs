@@ -166,7 +166,7 @@ fn cargo_project(cargo_path: &PathBuf, project_dir: &PathBuf) -> Result<Project,
     {
         if let Some(package) = parsed.get("package") {
             if let Some(name) = package.get("name") {
-                project_name = name.to_string();
+                project_name = name.as_str().unwrap().to_string();
             }
 
             project_desc = package.get("description").map(|d| d.to_string());
@@ -232,7 +232,7 @@ fn node_project(
     let package_json: serde_json::Value = serde_json::from_str(&json_content)?;
 
     if let Some(name) = package_json.get("name") {
-        project_name = name.to_string();
+        project_name = name.as_str().unwrap().to_string();
     }
 
     let project_desc = package_json.get("description").map(|o| o.to_string());
