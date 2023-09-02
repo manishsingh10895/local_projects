@@ -17,6 +17,7 @@ fn greet(name: &str) -> String {
     format!("Hello, {}! You've been greeted from Rust!", name)
 }
 
+/// Maintaing tauri state
 pub struct AppState {
     config: Arc<Mutex<Config>>,
     index: Arc<Mutex<indexer::Index>>,
@@ -25,7 +26,10 @@ pub struct AppState {
 #[tauri::command]
 fn config_add_dir(path: String, state: tauri::State<AppState>) -> Result<(), LpError> {
     let mut x = state.config.lock().unwrap();
-    x.add_dir(path)
+
+    x.add_dir(path)?;
+
+    x.save()
 }
 
 #[tauri::command]
@@ -35,6 +39,11 @@ fn get_config(state: tauri::State<AppState>) -> Config {
     let config = Arc::try_unwrap(config).unwrap().into_inner().unwrap();
 
     config
+}
+
+#[tauri::command]
+fn get_file_contents(file: String) -> Result<String, LpError> {
+    std::fs::read_to_string(file).map_err(|err| err.into())
 }
 
 #[tauri::command]
@@ -78,6 +87,7 @@ fn main() {
             config_add_dir,
             get_config,
             get_projects,
+            get_file_contents,
             reload_index
         ])
         .run(tauri::generate_context!())

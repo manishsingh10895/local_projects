@@ -12,27 +12,27 @@
   import type { Config } from "./types";
 
   const config = writable<Config>({
-    project_dirs : []
+    project_dirs: [],
   });
 
   const projects = writable([]);
 
-  setContext<AppContext>('appData', {
+  setContext<AppContext>("appData", {
     config,
-    projects
-  })
+    projects,
+  });
 
-  const appData = getContext<AppContext>('appData');
+  const appData = getContext<AppContext>("appData");
 
   onMount(() => {
-    invoke('get_projects')
+    invoke("get_projects")
       .then((projects) => {
         console.log(projects);
         appData.projects.set(projects as Array<any>);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
-      })
+      });
   });
 </script>
 
@@ -77,5 +77,8 @@
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    height: calc(100vh - 50px);
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 </style>

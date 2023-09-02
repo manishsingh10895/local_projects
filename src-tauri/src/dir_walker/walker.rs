@@ -102,7 +102,10 @@ fn get_relevant_project(
             }
 
             if name.to_lowercase() == "readme.md" || name.to_lowercase() == "doc.md" {
+                println!("DOC FILE found for {dir:?}");
                 doc_file = Some(files[i].to_str().unwrap().to_string());
+            } else {
+                println!("DOC FILE NOT FOUND for {dir:?}");
             }
         }
     }

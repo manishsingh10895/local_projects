@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Raleway', sans-serif;
-  src: url('/fonts/Raleway-Light.ttf');
+  font-family: "Raleway", sans-serif;
+  src: url("/fonts/Raleway-Light.ttf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   src: url("/fonts/Raleway-Medium.ttf");
   font-weight: bold;
 }
@@ -17,7 +17,7 @@
 body {
   font-size: 1.6rem;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ a {
   --primary-color: #5c6bc0;
   --secondary-color: #d81b60;
   --tertiary-color: #4fc3f7;
-  --text-color: #bababa;
+  --text-color: #999999;
   --text-color-alt: white;
 }
 

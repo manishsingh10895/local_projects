@@ -12,10 +12,13 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false,
+      "all": true,
       "shell": {
-        "all": false,
+        "all": true,
         "open": true
+      },
+      "fs": {
+        "all": true
       }
     },
     "bundle": {
@@ -37,7 +40,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "local_projects",
+        "title": "Local Projects",
         "width": 800,
         "height": 600
       }

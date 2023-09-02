@@ -1,16 +1,17 @@
 export type Config = {
-  project_dirs: String[];
+  project_dirs: string[];
 };
 
-export interface IProject  {
-  name: String;
-  path: String;
-  git: Array<String>;
-  description: String;
-  language_map: Map<String, number>;
+export interface IProject {
+  name: string;
+  path: string;
+  git: Array<string>;
+  description?: string;
+  language_map: Map<string, number>;
   project_type: ProjectType;
   last_modified: Date;
-};
+  documentation_file?: string;
+}
 
 export enum ProjectType {
   Rust,
