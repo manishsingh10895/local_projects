@@ -1,7 +1,7 @@
 <script lang="ts">
   import { invoke } from "@tauri-apps/api/tauri";
-  import { afterUpdate, onDestroy, onMount } from "svelte";
-  import * as parser from "../md-parser/markdown_parser.js";
+  import { afterUpdate, onMount } from "svelte";
+  import * as parser from "wasm_md_parser";
 
   export let file: string | undefined;
 

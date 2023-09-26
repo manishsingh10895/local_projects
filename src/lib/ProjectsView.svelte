@@ -19,15 +19,6 @@
 
   onMount(() => {});
 
-  async function refresh() {
-    try {
-      let projects = await invoke("get_projects");
-      console.log(projects);
-      appContext.projects.set(projects as Array<any>);
-    } catch (err) {
-      console.error(err);
-    }
-  }
 
   $: {
     console.log("[isDocViewOpen] -> ", isDocViewOpen);
@@ -40,13 +31,13 @@
 <div class="view-container projects-container">
   <div class="projects">
     {#each projects as project}
-        <Project
-          {project}
-          handleClick={() => {
-            activeProject = project;
-            isDocViewOpen = true;
-          }}
-        />
+      <Project
+        {project}
+        onViewDoc={() => {
+          activeProject = project;
+          isDocViewOpen = true;
+        }}
+      />
     {/each}
   </div>
 
@@ -54,9 +45,10 @@
     class="doc-bar"
     style:transform={`translateX(${isDocViewOpen ? "0" : "110%"})`}
   >
-    <div on:keydown={(e) => {}} class="doc-bar__inner">
+    <div class="doc-bar__inner">
       <span
         style:cursor="pointer"
+        tabindex="0"
         role="button"
         on:click={() => {
           isDocViewOpen = false;
@@ -100,9 +92,10 @@
       height: 100%;
       flex-grow: 1;
       transition: 0.3s all ease-in;
-      position: absolute;
+      position: fixed;
       right: 0;
       top: 0;
+      overflow-y: auto;
       background: #e0f2f1;
       transform: translateX(110%);
       z-index: 10;

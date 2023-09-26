@@ -8,7 +8,7 @@ use std::{
 
 use serde::{Deserialize, Serialize};
 
-use crate::{errors::lp_error::LpError, file_handler::Project};
+use crate::{config::get_config_dir, errors::lp_error::LpError, file_handler::Project};
 
 #[derive(Serialize, Deserialize)]
 pub struct Index {
@@ -27,21 +27,21 @@ impl Default for Index {
 
 impl Index {
     pub fn load() -> Result<Index, LpError> {
-        let lp_home = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
-        let mut home_path = PathBuf::from(lp_home);
-        home_path.push("index.json");
+        let mut config = get_config_dir();
 
-        let exists = home_path.try_exists().unwrap_or(false);
+        config.push(PathBuf::from("index.json"));
+
+        let exists = config.try_exists().unwrap_or(false);
 
         if !exists {
             return Err(LpError::Error(String::from("Not Found")));
         } else {
-            let canonical = home_path.canonicalize().unwrap();
+            let canonical = config.canonicalize().unwrap();
 
-            match std::fs::File::open(&home_path) {
+            match std::fs::File::open(&config) {
                 Ok(file) => match serde_json::from_reader(file) {
                     Ok(json) => {
-                        println!("Index Loaded From File {home_path:?}");
+                        println!("Index Loaded From File {config:?}");
                         return Ok(json);
                     }
                     Err(err) => {
@@ -59,8 +59,8 @@ impl Index {
     }
 
     pub fn load_or_default() -> Index {
-        let lp_home = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
-        let mut home_path = PathBuf::from(lp_home);
+        let mut home_path = get_config_dir();
+
         home_path.push("index.json");
 
         let exists = home_path.try_exists().unwrap_or(false);
@@ -94,8 +94,8 @@ impl Index {
     /// Saves the index in a json file
     /// and updates `last_indexed` time
     pub fn save(&mut self) -> Result<(), LpError> {
-        let lp_home = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
-        let mut home_path = PathBuf::from(lp_home);
+        let mut home_path = get_config_dir();
+
         home_path.push("index.json");
 
         let file: Result<File, std::io::Error> = OpenOptions::new()
@@ -130,7 +130,9 @@ impl Index {
 
     /// Returns projects as `Vec<Project>`
     pub fn projects(&self) -> Vec<Project> {
-        let projects: Vec<Project> = self.projects.iter().map(|(_, p)| p.clone()).collect();
+        let mut projects: Vec<Project> = self.projects.iter().map(|(_, p)| p.clone()).collect();
+
+        projects.sort_unstable_by(|a, b| b.last_modified.partial_cmp(&a.last_modified).unwrap());
 
         projects
     }

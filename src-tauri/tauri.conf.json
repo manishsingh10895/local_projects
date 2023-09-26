@@ -1,7 +1,7 @@
 {
   "build": {
-    "beforeDevCommand": "trunk serve",
-    "beforeBuildCommand": "trunk build",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
     "devPath": "http://localhost:1420",
     "distDir": "../dist",
     "withGlobalTauri": true
@@ -11,6 +11,17 @@
     "version": "0.0.0"
   },
   "tauri": {
+    "cli": {
+      "description": "Manage your projects",
+      "subcommands": {
+        "list": {
+          "args": []
+        },
+        "open": {
+          "args": []
+        }
+      }
+    },
     "allowlist": {
       "all": true,
       "shell": {
@@ -38,7 +49,7 @@
     },
     "windows": [
       {
-        "fullscreen": false,
+        "fullscreen": true,
         "resizable": true,
         "title": "Local Projects",
         "width": 800,

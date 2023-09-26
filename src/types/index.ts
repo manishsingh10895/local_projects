@@ -9,7 +9,7 @@ export interface IProject {
   description?: string;
   language_map: Map<string, number>;
   project_type: ProjectType;
-  last_modified: Date;
+  last_modified: { secs_since_epoch: number };
   documentation_file?: string;
 }
 

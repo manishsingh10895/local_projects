@@ -61,8 +61,8 @@
 <style lang="scss">
   .container {
     display: grid;
-    grid-template-columns: 150px 1fr;
-    grid-template-rows: 50px 1fr;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 90px 1fr;
     height: 100vh;
     grid-template-areas:
       "aside header"
@@ -74,10 +74,10 @@
   }
   .content {
     grid-area: content;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 90px);
     overflow-x: hidden;
     overflow-y: auto;
   }

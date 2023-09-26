@@ -1,13 +1,33 @@
 // App config
 
-use std::{io::BufWriter, path::PathBuf};
+use dirs::{self, config_dir, home_dir};
+use std::{
+    fs::{self, OpenOptions},
+    path::PathBuf,
+};
 
 use serde::{Deserialize, Serialize};
 
 use crate::errors::{config_error::ConfigError, lp_error::LpError};
 
+/// Returns path for LP_CONFIG directory
+pub fn get_config_dir() -> PathBuf {
+    let mut base = match config_dir() {
+        Some(path) => path,
+        None => home_dir().unwrap(),
+    };
+
+    base.push(PathBuf::from(".lp_config/"));
+
+    if !base.exists() {
+        let _ = fs::create_dir_all(&base);
+    }
+
+    base
+}
+
 /// Config for the LocalProjects App
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Config {
     /// List of directory, that would be searched
     /// for different projects
@@ -15,16 +35,37 @@ pub struct Config {
 }
 
 impl Config {
+    pub fn clone(&self) -> Config {
+        Config {
+            project_dirs: self.project_dirs.clone(),
+        }
+    }
+
     /// Loads config from `lp.config.json`
     /// sets `project_dirs` to empty array
     /// if `config file` `lp.config.json` is not found
     pub fn load() -> Self {
-        let path = std::env::var("LP_CONFIG_PATH").unwrap_or(String::from("./"));
-        let mut path = PathBuf::from(path);
-        path.push("lp.config.json");
+        let mut path = get_config_dir();
 
-        let file = std::fs::File::open(path).expect("Config File should be opened");
-        let config: Config = serde_json::from_reader(file).expect("Deserialized Config from file");
+        path.push(PathBuf::from("lp.config.json"));
+
+        println!("Loading config from {path:?}");
+
+        let file = OpenOptions::new()
+            .create(true)
+            .write(true)
+            .read(true)
+            .open(path)
+            .unwrap();
+
+        let config: Config = match serde_json::from_reader(file) {
+            Ok(config) => config,
+            Err(e) => {
+                eprintln!("[ERROR] {e:?}");
+
+                return Config::new();
+            }
+        };
 
         let dirs = config.project_dirs;
 
@@ -49,6 +90,7 @@ impl Config {
 
         self.project_dirs.push(path.into());
 
+        println!("[config.add_dir] path added");
         Ok(())
     }
 
@@ -60,23 +102,31 @@ impl Config {
     }
 
     pub fn save(&self) -> Result<(), LpError> {
-        if let Ok(path) = std::env::var("LP_CONFIG_PATH") {
-            let file = std::fs::File::open(path).expect("Config File should be opened");
-            serde_json::to_writer(BufWriter::new(file), self)
-                .expect("Serialize to save Config file");
-        };
+        let mut path = get_config_dir();
+
+        path.push(PathBuf::from("lp.config.json"));
+
+        let config = self.clone();
+
+        let config_json = serde_json::to_string_pretty(&config)?;
+
+        std::fs::write(&path, &config_json)?;
+
+        println!("config saved at {path:?}", path = path.clone());
         Ok(())
     }
 }
 
 #[cfg(test)]
 mod config_tests {
+    use crate::config::get_config_dir;
+
     use super::Config;
     #[test]
     fn it_should_read_config_file_create_config_struct() {
         dotenv::dotenv().ok();
 
-        let path = std::env::var("LP_CONFIG_PATH");
+        let path = get_config_dir();
 
         let current_dir = std::env::current_dir().unwrap();
 
@@ -91,7 +141,7 @@ mod config_tests {
     fn it_should_add_directory_to_config() {
         dotenv::dotenv().ok();
 
-        let mut config = Config::new();
+        let mut config = Config::load();
 
         let mut dir = std::env::home_dir().unwrap();
 
@@ -102,7 +152,12 @@ mod config_tests {
 
         let result = config.add_dir(dir.into_os_string().into_string().unwrap());
 
+        println!("{config:?}");
+
+        let saved = config.save();
+
         assert!(result.is_ok());
+        assert!(saved.is_ok());
         assert_eq!(config.project_dirs.len(), 1);
         assert!(config.project_dirs.first().is_some());
         assert_eq!(config.project_dirs.first().unwrap(), &doc_dir);

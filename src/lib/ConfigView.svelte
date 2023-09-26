@@ -10,6 +10,31 @@
 
   let directories: Array<string> = [];
 
+  let isIndexing = false;
+
+  async function checkIfIndexing() {
+    try {
+      let indexing: boolean = await invoke("is_indexing");
+      console.log(indexing);
+
+      isIndexing = indexing;
+
+      return indexing;
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  function startIndexingTimer() {
+    let interval = setInterval(async () => {
+      let indexing = await checkIfIndexing();
+
+      if (!indexing) {
+        clearInterval(interval);
+      }
+    }, 500);
+  }
+
   onMount(() => {
     invoke<Config>("get_config")
       .then((config: Config) => {
@@ -43,6 +68,9 @@
       }
 
       await invoke("reload_index");
+      await invoke("re_index");
+
+      startIndexingTimer();
 
       let projects = await invoke("get_projects");
 
@@ -60,16 +88,22 @@
     <div class="directories">
       {#each directories as dir}
         <div class="dir">
-          {dir}
+          <span>{dir}</span>
+          <span class="close">x</span>
         </div>
       {/each}
     </div>
   </div>
+  {#if isIndexing}
+    <div class="loader">Indexing ....</div>
+  {/if}
   <div class="add-directory">
     <h3>Add a Directory</h3>
 
     <div class="input-container">
-      <button on:click={handleInput}> Select Directory </button>
+      <button class="lp_button" on:click={handleInput}>
+        Select Directory
+      </button>
     </div>
   </div>
 </div>
@@ -78,7 +112,7 @@
   .config-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     .config {
     }
@@ -86,8 +120,34 @@
 
   .input-container {
     border-radius: 16px;
-    background: var(--secondary-color);
-    padding: 15px;
-    color: white;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .loader {
+    height: 150px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    font-size: 22px;
+  }
+
+  .directories {
+    .dir {
+      font-size: 1.2rem;
+      padding: 8px 4px;
+    }
+
+    .close {
+      color: red;
+      cursor: pointer;
+      font-size: 1.6rem;
+      margin-left: 10px;
+    }
+  }
+
+  .sub-title {
+    border-bottom: 1px solid var(--primary-color);
   }
 </style>

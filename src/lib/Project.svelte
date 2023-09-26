@@ -3,6 +3,10 @@
   import { getIconForProject } from "../helpers/icon.helper";
   import type { IProject } from "../types";
   import Languages from "./Languages.svelte";
+  import Icon from "svelte-icons-pack";
+  import BsGithub from "svelte-icons-pack/bs/BsGithub";
+  import { timeAgo } from "../helpers/time-ago.helper";
+  import { invoke } from "@tauri-apps/api/tauri";
 
   export let project: IProject;
 
@@ -12,13 +16,19 @@
 
   console.log(projectIcon);
 
-  export let handleClick: Function;
+  export let onViewDoc: Function;
 
   function onKeyDown(e) {
     if (e.keyCode === 13) {
-      handleClick(project);
+      onViewDoc(project);
     }
   }
+
+  function onOpen() {
+    invoke("open_project", { path: project.path });
+  }
+
+  let time = new Date(project.last_modified.secs_since_epoch * 1000);
 </script>
 
 <div
@@ -26,9 +36,19 @@
   tabindex="0"
   role="button"
   aria-roledescription="Click on Project"
-  on:keydown={onKeyDown}
-  on:click={(e) => handleClick(project)}
 >
+  {#if project.git && project.git.length}
+    <span
+      aria-roledescription="Github Repo"
+      role="link"
+      class="git"
+    >
+      <a target="_blank" href={project.git[0]}>
+        <Icon src={BsGithub} />
+      </a>
+    </span>
+  {/if}
+
   <div class="details-container">
     <div class="logo-container">
       <img src={projectIcon} alt={project.project_type.toString()} />
@@ -47,10 +67,28 @@
   <div class="languages-container">
     <Languages languages={project.language_map} />
   </div>
+
+  <div class="actions">
+    {#if project.git.length}
+      <button
+        class="lp_button sm"
+        on:keydown={onKeyDown}
+        on:click={(_) => onViewDoc(project)}
+      >
+        View Doc
+      </button>
+    {/if}
+    <button on:click={onOpen} class="lp_button secondary sm"> Open </button>
+  </div>
+
+  <div class="time">
+    {timeAgo(time)}
+  </div>
 </div>
 
 <style lang="scss">
   .project {
+    position: relative;
     cursor: pointer;
     background: rgb(171, 171, 171);
     background: linear-gradient(
@@ -68,6 +106,29 @@
     max-width: 250px;
 
     flex-direction: column;
+
+    .git {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0 ;
+    }
+
+    .time {
+      position: absolute;
+      bottom: 5px;
+      left: 10px;
+      font-size: 10px;
+      color: gray;
+    }
+
     .details-container {
       display: flex;
       align-items: center;

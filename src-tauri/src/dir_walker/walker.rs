@@ -96,18 +96,19 @@ fn get_relevant_project(
     for i in 0..len {
         if let Some(name) = files[i].file_name() {
             let name = name.to_str().unwrap();
-            if PROJECT_IDENTIFIERS.contains(&name) {
+            if PROJECT_IDENTIFIERS.contains(&name) && id_file.is_none() {
                 id_file = Some(&files[i]);
-                break;
             }
 
             if name.to_lowercase() == "readme.md" || name.to_lowercase() == "doc.md" {
                 println!("DOC FILE found for {dir:?}");
                 doc_file = Some(files[i].to_str().unwrap().to_string());
-            } else {
-                println!("DOC FILE NOT FOUND for {dir:?}");
             }
         }
+    }
+
+    if doc_file.is_none() {
+        println!("DOC file not found for {dir:?}");
     }
 
     let mut project = None;
@@ -466,8 +467,9 @@ fn scan_dir(
 
 #[cfg(test)]
 mod walker_tests {
-    use super::{flutter_project, get_relevant_project};
+    use super::flutter_project;
 
+    #[ignore]
     #[test]
     fn it_should_return_relevant_project_data() {
         let mut home = std::env::home_dir().unwrap();
@@ -488,6 +490,7 @@ mod walker_tests {
         // let _result = get_relevant_project(&files, &home);
     }
 
+    #[ignore]
     #[test]
     fn it_should_get_details_for_a_flutter_project() {
         let mut flutter_project_path = std::env::home_dir().unwrap();

@@ -28,6 +28,11 @@ a {
   min-height: 100vh;
 }
 
+.sub-title {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
 :root {
   --primary-color: #5c6bc0;
   --secondary-color: #d81b60;
@@ -37,16 +42,25 @@ a {
 }
 
 .lp_button {
+  cursor: pointer;
   border-radius: 16px;
-  padding: 8px 12px;
+  padding: 16px 14px;
   box-shadow: 0 0 15px rgba(20, 20, 20, 0.4);
   color: white;
   appearance: none;
   -webkit-appearance: none;
+  font-size: 1.2rem;
   border: none;
   background: var(--primary-color);
 }
 
 .lp_button.secondary {
   background-color: var(--secondary-color);
+}
+
+.lp_button.sm {
+  font-size: 12px;
+  height: 20px;
+  padding: 4px 12px;
+  line-height: 12px;
 }
