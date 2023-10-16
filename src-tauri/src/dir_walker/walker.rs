@@ -101,14 +101,14 @@ fn get_relevant_project(
             }
 
             if name.to_lowercase() == "readme.md" || name.to_lowercase() == "doc.md" {
-                println!("DOC FILE found for {dir:?}");
+                // println!("DOC FILE found for {dir:?}");
                 doc_file = Some(files[i].to_str().unwrap().to_string());
             }
         }
     }
 
     if doc_file.is_none() {
-        println!("DOC file not found for {dir:?}");
+        // println!("DOC file not found for {dir:?}");
     }
 
     let mut project = None;
@@ -445,7 +445,7 @@ fn scan_dir(
         }
     }
 
-    println!("FOUND PROJECT {found_project} || Depth {depth}");
+    // println!("FOUND PROJECT {found_project} || Depth {depth}");
 
     if found_project == false && max_depth > depth {
         println!("\n\nIterating Dirs for {path:?}");
@@ -472,6 +472,7 @@ mod walker_tests {
     #[ignore]
     #[test]
     fn it_should_return_relevant_project_data() {
+        #[allow(deprecated)]
         let mut home = std::env::home_dir().unwrap();
         home.push("Documents/projects/rust/search_engine");
 
@@ -483,7 +484,7 @@ mod walker_tests {
             }
         };
 
-        let (_, files): (Vec<_>, Vec<_>) = read_dir
+        let (_, _): (Vec<_>, Vec<_>) = read_dir
             .filter_map(|it| it.ok().map(|it| it.path()))
             .partition(|it| it.is_dir());
 
@@ -493,6 +494,7 @@ mod walker_tests {
     #[ignore]
     #[test]
     fn it_should_get_details_for_a_flutter_project() {
+        #[allow(deprecated)]
         let mut flutter_project_path = std::env::home_dir().unwrap();
 
         flutter_project_path.push("Documents/template/bpmonitor");

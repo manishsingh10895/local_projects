@@ -2,6 +2,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use std::{
+    env,
     process::Command,
     sync::{Arc, Mutex},
 };
@@ -9,6 +10,7 @@ use std::{
 use config::Config;
 use errors::lp_error::LpError;
 use file_handler::Project;
+use search::create_search_index;
 pub mod config;
 pub mod dir_walker;
 pub mod errors;
@@ -29,6 +31,31 @@ pub struct AppState {
     index: Arc<Mutex<indexer::Index>>,
     search_model: Arc<Mutex<search_model::Model>>,
     is_indexing: Arc<Mutex<bool>>,
+}
+
+#[tauri::command]
+fn open_repo_url(path: String) -> Result<(), ()> {
+    let cur_dir = env::current_dir().unwrap();
+    let cur_dir = cur_dir.to_string_lossy();
+    println!("{cur_dir:?}");
+
+    let out = std::process::Command::new("sh")
+        .current_dir(path)
+        .arg(format!("{cur_dir}/git_open.sh"))
+        .output();
+
+    match out {
+        Ok(output) => {
+            println!("output");
+            println!("{:?}", output);
+        }
+        Err(e) => {
+            println!("{e}");
+            return Err(());
+        }
+    }
+
+    Ok(())
 }
 
 #[tauri::command]
@@ -61,14 +88,30 @@ fn get_file_contents(file: String) -> Result<String, LpError> {
 #[tauri::command]
 fn search_query(query: String, state: tauri::State<AppState>) -> Result<Vec<Project>, LpError> {
     let model = state.search_model.lock().unwrap();
+    let index = state.index.lock().unwrap();
 
     let query: Vec<char> = query.chars().into_iter().collect();
 
-    let projects = model.search_query(&query.as_slice());
+    println!("Query -> {query:?}");
 
-    println!("{projects:?}");
+    if query.len() == 0 {
+        return Ok(index.projects());
+    }
 
-    Ok(Vec::new())
+    if let Ok(projects) = model.search_query(&query) {
+        let mut result = Vec::new();
+        for p in projects {
+            if let Some(project) = index.projects_map().get(&p.0) {
+                println!("Project -> {name}", name = project.name);
+                println!("\n");
+                result.push(project.clone());
+            }
+        }
+
+        return Ok(result);
+    } else {
+        return Ok(Vec::new());
+    };
 }
 
 #[tauri::command]
@@ -113,6 +156,7 @@ fn re_index(state: tauri::State<AppState>) {
 
     let c = config.lock().unwrap().clone();
     let x = std::thread::spawn(move || file_handler::initiate_search(&c)).join();
+    create_search_index();
     if let Ok(_) = x {
         *indexing = false;
     }
@@ -132,7 +176,8 @@ fn main() {
 
     let config = Config::load();
     {
-        std::thread::spawn(move || file_handler::initiate_search(&config));
+        let _ = std::thread::spawn(move || file_handler::initiate_search(&config)).join();
+        create_search_index();
     }
 
     let model = match search_model::load_model() {
@@ -155,6 +200,7 @@ fn main() {
             get_file_contents,
             reload_index,
             re_index,
+            open_repo_url,
             is_indexing,
             open_project,
             search_query,
@@ -185,7 +231,7 @@ mod main_tests {
     fn it_should_open_project() {
         let path = "/Users/s_mash/Documents/projects/rust/local_projects";
 
-        let x = open_project(path.to_string());
+        let _x = open_project(path.to_string());
     }
 
     #[ignore]

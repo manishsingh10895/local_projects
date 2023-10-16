@@ -84,6 +84,8 @@ impl Model {
 
         let tokens = Lexer::new(&query).collect::<Vec<_>>();
 
+        println!("Search Query Tokens -> {tokens:?}");
+
         for (path, doc) in &self.docs {
             let mut rank = 0f32;
 

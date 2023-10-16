@@ -17,7 +17,7 @@
 
   async function reloadIndex() {
     console.log("Reloading Index");
-    await invoke("reload_index");
+    await invoke("re_index");
 
     refresh();
   }
@@ -27,7 +27,7 @@
   <h3>Local Projects</h3>
   <div class="actions">
     <button class="lp_button secondary" on:click={reloadIndex}>
-      Reload Index
+      Re-Index
     </button>
   </div>
 </div>

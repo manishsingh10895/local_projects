@@ -21,7 +21,7 @@ impl std::fmt::Display for LpError {
             Self::Error(err) => write!(f, "{err}"),
             Self::IoError(err) => {
                 let source = err.source();
-                write!(f, "{source:?}");
+                let _ = write!(f, "{source:?}");
                 write!(f, "{err}")
             }
             Self::SerdeError(err) => write!(f, "{err}"),

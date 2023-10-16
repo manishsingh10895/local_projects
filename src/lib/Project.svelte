@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { MouseEventHandler } from "svelte/elements";
   import { getIconForProject } from "../helpers/icon.helper";
   import type { IProject } from "../types";
   import Languages from "./Languages.svelte";
@@ -10,18 +9,22 @@
 
   export let project: IProject;
 
-  let projectIcon = getIconForProject(
-    project.project_type.toString().toLowerCase()
-  );
+  let projectIcon: string;
 
-  console.log(projectIcon);
+  $: {
+    projectIcon = getIconForProject(
+      project.project_type.toString().toLowerCase()
+    );
+  }
 
   export let onViewDoc: Function;
 
   function onKeyDown(e) {
-    if (e.keyCode === 13) {
-      onViewDoc(project);
-    }
+    // console.log('[onKeydoww] View Doc');
+    // console.log(e);
+    // if (e.keyCode === 13) {
+    //   onViewDoc(project);
+    // }
   }
 
   function onOpen() {
@@ -38,12 +41,19 @@
   aria-roledescription="Click on Project"
 >
   {#if project.git && project.git.length}
-    <span
-      aria-roledescription="Github Repo"
-      role="link"
-      class="git"
-    >
-      <a target="_blank" href={project.git[0]}>
+    <span aria-roledescription="Github Repo" role="link" class="git">
+      <a
+        href="#"
+        on:click={async () => {
+          try {
+            let res = await invoke("open_repo_url", { path: project.path });
+
+            console.log(res);
+          } catch (e) {
+            console.log(e);
+          }
+        }}
+      >
         <Icon src={BsGithub} />
       </a>
     </span>
@@ -53,6 +63,8 @@
     <div class="logo-container">
       <img src={projectIcon} alt={project.project_type.toString()} />
     </div>
+
+    <!-- {project.project_type} -->
 
     <div class="text-details">
       <div class="name">
@@ -118,7 +130,7 @@
       gap: 10px;
       justify-content: center;
       align-items: center;
-      margin: 10px 0 ;
+      margin: 10px 0;
     }
 
     .time {

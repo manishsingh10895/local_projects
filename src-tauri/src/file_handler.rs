@@ -100,7 +100,7 @@ pub fn initiate_search(config: &Config) -> Result<(), LpError> {
 
 #[cfg(test)]
 mod file_tests {
-    #[ignore]
+    // #[ignore]
     #[test]
     pub fn it_should_create_an_index() {
         std::env::set_var("LP_CONFIG_PATH", "./");

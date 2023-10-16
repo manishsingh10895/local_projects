@@ -1,5 +1,4 @@
 use std::{
-    collections::HashMap,
     fs::{self, File},
     io::BufWriter,
     path::{Path, PathBuf},
@@ -10,9 +9,7 @@ use crate::config::get_config_dir;
 
 pub mod config;
 pub mod dir_walker;
-use lexer::Lexer;
 use search_model::Model;
-use serde::{Deserialize, Serialize};
 pub mod errors;
 pub mod file_handler;
 pub mod indexer;
@@ -69,8 +66,8 @@ fn main() {
             let last_modified: SystemTime = match value.get("last_modified") {
                 Some(modified) => {
                     if !modified.is_null() {
-                        let secs = modified.get("secs_since_epoch").unwrap().as_u64().unwrap();
-                        let nanos = modified.get("nanos_since_epoch");
+                        let _ = modified.get("secs_since_epoch").unwrap().as_u64().unwrap();
+                        let _ = modified.get("nanos_since_epoch");
 
                         SystemTime::now()
                     } else {
@@ -99,16 +96,13 @@ fn main() {
             let content: Vec<char> = content.chars().into_iter().collect();
 
             model.add_document(PathBuf::from(path), last_modified, &content.as_slice());
-
-            println!("Name -> {name}\n Description -> {description} \n {doc_contents}");
-            println!("__________________________________");
         }
 
         let mut index_path = get_config_dir();
 
         index_path.push("search-index.json");
 
-        let res = save_model_as_json(&model, &index_path);
+        let _ = save_model_as_json(&model, &index_path);
     }
 }
 
@@ -127,6 +121,7 @@ fn save_model_as_json(model: &Model, index_path: &Path) -> Result<(), ()> {
     Ok(())
 }
 
+#[allow(dead_code)]
 /// Loads search model from index file
 fn load_model() -> Result<Model, ()> {
     let mut config = get_config_dir();
@@ -144,5 +139,36 @@ fn load_model() -> Result<Model, ()> {
     } else {
         eprintln!("Cannot File search index at {config:?}");
         return Err(());
+    }
+}
+
+#[cfg(test)]
+mod index_tests {
+    use crate::{config::get_config_dir, load_model, main};
+
+    #[test]
+    fn it_should_index_files() {
+        main();
+
+        let mut index_path = get_config_dir();
+        index_path.push("search-index.json");
+
+        let model = load_model();
+
+        assert_eq!(model.is_ok(), true);
+
+        let model = model.unwrap();
+
+        let query: &[char] = &['r', 'u', 's', 't'];
+
+        let res = model.search_query(query);
+
+        assert!(res.is_ok());
+
+        let res = res.unwrap();
+
+        println!("{res:?}");
+
+        assert!(index_path.exists());
     }
 }

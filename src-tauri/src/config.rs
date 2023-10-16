@@ -143,16 +143,16 @@ mod config_tests {
 
         let mut config = Config::load();
 
+        #[allow(deprecated)]
         let mut dir = std::env::home_dir().unwrap();
 
         dir.push("Documents");
 
+        #[allow(deprecated)]
         let mut doc_dir = std::env::home_dir().unwrap();
         doc_dir.push("Documents");
 
         let result = config.add_dir(dir.into_os_string().into_string().unwrap());
-
-        println!("{config:?}");
 
         let saved = config.save();
 
@@ -169,6 +169,7 @@ mod config_tests {
 
         let mut config = Config::new();
 
+        #[allow(deprecated)]
         let mut dir = std::env::home_dir().unwrap();
 
         dir.push("Documents");

@@ -2,6 +2,7 @@
   import { invoke } from "@tauri-apps/api/tauri";
   import { afterUpdate, onMount } from "svelte";
   import * as parser from "wasm_md_parser";
+    import { processDocHtml } from "../helpers/html.helper";
 
   export let file: string | undefined;
 
@@ -38,7 +39,7 @@
         case "md": {
           let parsed = parser.parse(contents);
 
-          html = parsed;
+          html = processDocHtml(parsed);
           break;
         }
         default: {
